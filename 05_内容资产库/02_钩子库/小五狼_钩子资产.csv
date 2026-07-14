@@ -1,0 +1,6 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+XWH-01,小五狼,xiaowulang.question-framework-checklist.v1,认知|成长|自控,对号入座,首句,用一个有代价的二选一问题让观众立即站队,换成用户主题中的真实选择且不复制题干
+XWH-02,小五狼,xiaowulang.paradox-identity-action.v1,内耗|关系|行动,刺痛与好奇,首句,指出一个观众已有却不愿承认的矛盾再延迟解释,不用原账号的攻击性判词
+XWH-03,小五狼,xiaowulang.question-framework-checklist.v1,自我提升|习惯|效率,升级欲,首句,给出谨慎的收益承诺并立刻说明会讲几个部分,承诺只对应可解释的收益不夸大改变结果
+XWH-04,小五狼,xiaowulang.familiar-concept-modern-decision.v1,传统智慧|环境|选择,熟悉感与反差,首句,把熟悉概念翻译成现代生活语言制造反差,不复制原概念或神秘化表述
+XWH-05,小五狼,xiaowulang.concept-experiment-life.v1,心理学|脑科学|决策,知识缺口,前30秒,先抛生活现象再给出一个概念名称和学习目录,概念必须服务当前主题且不用原研究背书

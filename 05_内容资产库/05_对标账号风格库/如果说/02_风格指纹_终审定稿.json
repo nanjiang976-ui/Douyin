@@ -1,0 +1,270 @@
+{
+  "schema_version": "4.0",
+  "style_id": "ifushuo.unified.reviewed65.20260713.v1",
+  "account_id": "ifushuo",
+  "account_name": "如果说",
+  "style_scope": "unified_account",
+  "sample_count": 65,
+  "analysis_source": "65份人工终审稿",
+  "current_account_fit": {
+    "primary_topics": [
+      "认知",
+      "个人成长",
+      "自我提升"
+    ],
+    "secondary_topics": [
+      "赚钱意识",
+      "长期主义",
+      "行动力",
+      "普通人改变"
+    ],
+    "ai_policy": "AI不是默认选题；仅当用户明确要求且服务于认知主命题时，作为辅助场景出现。"
+  },
+  "selection": {
+    "primary_account_limit": 1,
+    "auxiliary_capability_limit": 2,
+    "raw_text_lookup": "先读取指纹、注册表和07表层素材库；按主题调用素材ID与原文段落，必要时再定位完整终审稿。"
+  },
+  "retrieval_tags": {
+    "themes": [
+      "认知",
+      "个人成长",
+      "自我提升",
+      "内耗",
+      "情绪",
+      "关系",
+      "长期主义",
+      "传统智慧",
+      "人物",
+      "历史",
+      "赚钱",
+      "执行"
+    ],
+    "emotions": [
+      "焦虑",
+      "释然",
+      "清醒",
+      "安定",
+      "力量",
+      "行动欲"
+    ],
+    "hook_functions": [
+      "反常识",
+      "痛点命名",
+      "身份对照",
+      "概念误读",
+      "现实压力"
+    ],
+    "opening_families": [
+      "熟悉判断翻面",
+      "痛点机制重命名",
+      "熟语缺口",
+      "同场景判断分层",
+      "具体账本与隐性代价",
+      "负面状态反向解释",
+      "无反馈生存题"
+    ],
+    "ending_functions": [
+      "情绪修复",
+      "克制判断",
+      "自问判断",
+      "低门槛行动"
+    ]
+  },
+  "default_capabilities": [
+    "痛苦重命名",
+    "生活场景翻译"
+  ],
+  "model_catalog": {
+    "ifushuo.reframe-action.v1": {
+      "name": "误解重构到行动",
+      "retrieval_tags": [
+        "内耗",
+        "焦虑",
+        "比较",
+        "误解",
+        "解释",
+        "被误解",
+        "自我证明",
+        "关系",
+        "坚持",
+        "长期主义",
+        "学习",
+        "行动",
+        "习惯",
+        "创作",
+        "反馈",
+        "自我怀疑"
+      ],
+      "hook_function": "指出大众误解或反常识结论",
+      "argument_path": "误解→重新解释→生活镜像→概念翻译→行动",
+      "rhythm": "短句开场，中段场景与解释交替，结尾放慢",
+      "emotion_route": "焦虑→被理解→看清→恢复掌控感",
+      "ending_function": "低门槛动作或价值确认"
+    },
+    "ifushuo.identity-ladder.v1": {
+      "name": "处境重写到选择",
+      "retrieval_tags": [
+        "层级",
+        "境界",
+        "成长",
+        "决策",
+        "比较",
+        "情绪",
+        "关系"
+      ],
+      "hook_function": "把熟悉困境改写为需要重新选择的处境问题",
+      "argument_path": "惯性反应→规律理解→选择重写→同场景选择",
+      "rhythm": "递进分层、场景解释与短句落点交替",
+      "emotion_route": "自我否定→抽离→从容",
+      "ending_function": "以同场景下的新选择或克制判断收束"
+    },
+    "ifushuo.classic-translation.v1": {
+      "name": "概念到生活翻译",
+      "retrieval_tags": [
+        "古语",
+        "道德经",
+        "庄子",
+        "传统智慧",
+        "国学",
+        "处世",
+        "本心",
+        "关系"
+      ],
+      "hook_function": "用陌生概念或流行误读制造解释缺口",
+      "argument_path": "概念→常见误读→大白话→当代场景→行动理解",
+      "rhythm": "概念句与生活句交替，解释后给短句回报",
+      "emotion_route": "困惑→顿悟→安定",
+      "ending_function": "回扣概念并给出日常判断"
+    },
+    "ifushuo.story-principle.v1": {
+      "name": "故事到规律",
+      "retrieval_tags": [
+        "人物",
+        "历史",
+        "故事",
+        "案例",
+        "商业案例",
+        "方法论"
+      ],
+      "hook_function": "先放入人物困境或关键选择",
+      "argument_path": "困境→选择→结果→规律→当代同构场景",
+      "rhythm": "叙事推进后用短句抽出规律",
+      "emotion_route": "代入→紧张→理解→行动欲",
+      "ending_function": "把规律还给观众自己的选择"
+    },
+    "ifushuo.pressure-action.v1": {
+      "name": "现实压力到行动",
+      "retrieval_tags": [
+        "赚钱",
+        "商业",
+        "创业",
+        "执行",
+        "成本",
+        "一人公司",
+        "行动力",
+        "长期主义",
+        "低反馈",
+        "正反馈",
+        "无反馈",
+        "坚持",
+        "创作",
+        "学习"
+      ],
+      "hook_function": "现实成本或身份压力对照",
+      "argument_path": "压力→代价→重新命名→行动选择",
+      "rhythm": "冲突快、结论先行、短句密集",
+      "emotion_route": "紧迫→清醒→行动",
+      "ending_function": "明确下一步或现实判断"
+    }
+  },
+  "representative_demo_coverage": {
+    "ifushuo.reframe-action.v1": [
+      "7649729653048888612"
+    ],
+    "ifushuo.identity-ladder.v1": [
+      "7649729653048888612"
+    ],
+    "ifushuo.classic-translation.v1": [
+      "7656051023496236328"
+    ],
+    "ifushuo.story-principle.v1": [
+      "7643833205165968680"
+    ],
+    "ifushuo.pressure-action.v1": [
+      "7653052955993656628"
+    ]
+  },
+  "opening_signature": {
+    "principle": "先用带代价的判断或问题打破默认解释，再让观众看见自己的处境，并留下可被正文兑现的机制缺口。",
+    "sequence": [
+      "截停",
+      "观众照见",
+      "欠答案或给明确收益"
+    ],
+    "preferred_emotional_routes": [
+      "刺痛到被理解",
+      "焦虑到掌控感",
+      "警觉到边界感",
+      "自我否定到希望"
+    ],
+    "profile_required": true
+  },
+  "writing_signature": {
+    "title_logic": [
+      "痛点加反常识",
+      "身份或境界重新定义",
+      "概念加现代痛点",
+      "可收藏清单"
+    ],
+    "hook_sequence": [
+      "结论或悖论",
+      "默认误解",
+      "生活镜像",
+      "核心问题"
+    ],
+    "argument_order": [
+      "强观点",
+      "具体场景",
+      "概念或故事",
+      "大白话翻译",
+      "质疑重定义",
+      "短句重锤",
+      "行动与升华"
+    ],
+    "rhythm": [
+      "开头快",
+      "中段概念场景案例交替",
+      "持续短句回报",
+      "结尾慢并情绪修复"
+    ],
+    "sentence_devices": [
+      "断言后解释",
+      "转折自问",
+      "因果展开",
+      "场景对照",
+      "概念去术语化"
+    ],
+    "ending_patterns": [
+      "自问判断题",
+      "同场景的不同选择",
+      "克制判断",
+      "低门槛动作"
+    ]
+  },
+  "paths": {
+    "evidence_index": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/03_分析产出/06_全65条逐视频拆解证据索引.csv",
+    "manual": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/03_统一文风说明书.md",
+    "transcripts": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案",
+    "language_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/04_语言风格指纹.json",
+    "opening_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/05_开头表达指纹.json",
+    "representative_language_demo": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/06_代表正文逐段语言示范.md",
+    "material_library": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/07_对标表层素材库.jsonl"
+  },
+  "material_reuse_policy": [
+    "例子、案例、比喻、个人故事、具体事实、原话、口头表达和原始顺序均可调用。",
+    "调用时保留素材ID、段落ID与来源。",
+    "具名事实、数字、引用、研究和当前信息发布前核验。"
+  ],
+  "material_schema_version": "2.0"
+}

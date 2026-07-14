@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+LEB-S01,李二八,leb.contrast-case-to-system.v1,状态|环境|目标|关系,惊讶→听懂→可尝试,全篇,反差案例→机制命名→生活验证→系统改造→低成本调整,不用原案例题材个人故事和行动技巧
+LEB-S02,李二八,leb.identity-experiment-creator-log.v1,创作|项目|普通人路径|长期主义,怀疑→希望→持续感,全篇,公开命题→底层原理→反例排除→个人限制盘点→重复规则,不用原目标数字收入承诺和身份叙事
+LEB-S03,李二八,leb.conflict-deconstruction-to-boundaries.v1,拖延|执行力|职业化|行动,被挑战→清醒→执行,全篇,尖锐否定→机制拆解→停止项→建设项→流程标准,不用攻击语言原清单顺序和具体行业结论
+LEB-S04,李二八,leb.source-idea-to-agency.v1,行动力|选择|解决问题|领导力,好奇→对照→被点燃,全篇,来源或思想实验→特质拆解→逆势案例→统一内核→自测动作,不用原来源名人商业案例和设问

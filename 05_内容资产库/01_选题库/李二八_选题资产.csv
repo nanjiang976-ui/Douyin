@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+LEB-T01,李二八,leb.contrast-case-to-system.v1,倦怠|状态|环境|目标,好奇→听懂→可控感,选题立意,用陌生案例承载普通人系统问题再去猎奇化解释,不用原争议题材案例结构和生活技巧
+LEB-T02,李二八,leb.identity-experiment-creator-log.v1,内容创作|普通人路径|长期尝试|项目启动,怀疑→希望→持续感,选题立意,将自己的真实项目设计成可观察的长期试验,不用原目标数字身份故事和公开承诺
+LEB-T03,李二八,leb.conflict-deconstruction-to-boundaries.v1,拖延|执行力|职业化|行动,被挑战→清醒→行动,选题立意,先指出流行解决方案的盲点再解释真正的摩擦机制,不用攻击性表达原清单和平台结论
+LEB-T04,李二八,leb.source-idea-to-agency.v1,主观能动性|选择|解决问题|领导力,好奇→自我对照→被点燃,选题立意,用思想实验引导观众先做选择再拆解行动能力,不用原来源名人和商业案例

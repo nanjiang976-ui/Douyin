@@ -1,0 +1,430 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "ifushuo.opening.high-retention.v1",
+  "account_id": "ifushuo",
+  "account_name": "如果说",
+  "sample_count": 65,
+  "source_scope": "65份人工终审稿的正文开头与逐视频证据索引",
+  "evidence_note": "没有逐条3秒留存率；以下为全量样本中反复出现的开头机制，不把点赞量解释为留存因果。",
+  "opening_principle": "先用带代价的判断或问题打破默认解释，再让观众看见自己的处境，随后留下一个可被正文兑现的机制缺口。",
+  "opening_sequence": [
+    "第一拍：判断、悖论、熟悉话语缺口或具体困境",
+    "第二拍：生活镜像、隐藏代价或观众自我判断",
+    "第三拍：待解释机制、判断标准或明确收益"
+  ],
+  "emotion_buttons": [
+    "刺痛到被理解",
+    "委屈到得到解释",
+    "焦虑到掌控感",
+    "警觉到边界感",
+    "自我否定到希望",
+    "平淡到升级欲"
+  ],
+  "families": [
+    {
+      "id": "ifs.opening.familiar-reframe.v1",
+      "name": "熟悉判断翻面",
+      "retrieval_tags": [
+        "传统智慧",
+        "名人观点",
+        "关系",
+        "人生选择",
+        "认知纠偏"
+      ],
+      "job": "借熟悉说法进入，打开被忽略的第二层",
+      "emotional_effect": "熟悉感、惊讶、求解",
+      "first_beat_skeletons": [
+        "大家都记得{熟悉说法}，但很少有人追问它放到{现实处境}里漏掉了什么。",
+        "{常见观点}只解释了表面，决定{结果}的还有一个没人愿意谈的{条件/代价}。"
+      ],
+      "next_beat": "马上给现代生活场景并说明与观众当下选择的关系",
+      "avoid": [
+        "只堆权威",
+        "未经核验的引用归属",
+        "照搬原句"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7652699613761228083",
+          "paragraph_id": "P001",
+          "text": "你不信风水，就很难成事。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7652699613761228083.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7649729653048888612",
+          "paragraph_id": "P001",
+          "text": "道不足的人多术，德不足的人多欲，信不足的人多言，威不足的人多怒，而那些爱不足的人，反而多情。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7649729653048888612.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7651189369163894043",
+          "paragraph_id": "P001",
+          "text": "知道“心邪者多疑”的下一句吗？",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7651189369163894043.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    },
+    {
+      "id": "ifs.opening.pain-mechanism.v1",
+      "name": "痛点机制重命名",
+      "retrieval_tags": [
+        "内耗",
+        "自我证明",
+        "拖延",
+        "关系",
+        "长期主义",
+        "焦虑"
+      ],
+      "job": "把人格自责改写成可以理解和调整的机制",
+      "emotional_effect": "被看见、释然、掌控感",
+      "first_beat_skeletons": [
+        "你以为自己总在{失败结果}，是因为{常见自责}；反复把你拉回原地的，可能是{隐藏机制}。",
+        "你越想靠{用力行为}摆脱{痛点}，它反而越明显，问题可能出在用力方向。"
+      ],
+      "next_beat": "补一个具体时刻、行为或关系场景作为证据",
+      "avoid": [
+        "空泛心理诊断",
+        "用一句反转替代论证",
+        "把责任全部推给外部"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7655286121772993844",
+          "paragraph_id": "P001",
+          "text": "你驾驭不住的东西才会显相：情绪驾驭不住，则怒气挂脸；财富驾驭不住，则铜臭外露；权力驾驭不住，则盛气凌人。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7655286121772993844.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7638975546461785384",
+          "paragraph_id": "P001",
+          "text": "什么是弱者着相、强者破相、智者无相？",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7638975546461785384.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7647138694075321610",
+          "paragraph_id": "P001",
+          "text": "纳瓦尔说：“不要去管别人，只管早睡、运动和读书。”",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7647138694075321610.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    },
+    {
+      "id": "ifs.opening.familiar-gap.v1",
+      "name": "熟语缺口",
+      "retrieval_tags": [
+        "古语",
+        "书籍",
+        "演讲",
+        "历史",
+        "概念翻译"
+      ],
+      "job": "利用听过但没听完整或没被讲透的内容制造信息缺口",
+      "emotional_effect": "熟悉感、好奇、认知升级欲",
+      "first_beat_skeletons": [
+        "很多人都听过{熟语/观点}，真正影响{现实结果}的，是它没有被讲透的后半层。",
+        "你知道{熟悉说法}放到{具体困境}里，到底在提醒什么吗？"
+      ],
+      "next_beat": "先给当代问题，再进入概念解释",
+      "avoid": [
+        "假装存在后半句",
+        "断章取义",
+        "用文化熟悉感代替事实核验"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7642250423872638223",
+          "paragraph_id": "P001",
+          "text": "你有没有真正想做的事？",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7642250423872638223.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7643833205165968680",
+          "paragraph_id": "P001",
+          "text": "范仲淹拿出一千亩田产，放在苏州城外。这笔钱竟然从北宋一直活到了民国，前后九百年，却从没断过。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7643833205165968680.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7644889050234506538",
+          "paragraph_id": "P001",
+          "text": "两百块，就能试出来你那个想做的生意成不成。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7644889050234506538.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    },
+    {
+      "id": "ifs.opening.judgment-ladder.v1",
+      "name": "同场景判断分层",
+      "retrieval_tags": [
+        "成长",
+        "情绪",
+        "关系",
+        "决策",
+        "认知层次"
+      ],
+      "job": "让观众判断自己正在用哪套标准处理同一件事",
+      "emotional_effect": "对号入座、自省、升级欲",
+      "first_beat_skeletons": [
+        "面对同一个{场景}，有人只看{即时感受}，有人开始看{现实价值}，更成熟的判断会先看{长期规律}。",
+        "同样遇到{困境}，差距不在谁更能忍，而在谁先看见了{关键变量}。"
+      ],
+      "next_beat": "用同一生活场景展示不同选择",
+      "avoid": [
+        "弱者强者式人格羞辱",
+        "把层级当身份优越",
+        "只有分层没有机制"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7648992848871722259",
+          "paragraph_id": "P001",
+          "text": "宽门不进，肥田不耕，见路不走，见死不救。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7648992848871722259.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7650089773134138650",
+          "paragraph_id": "P001",
+          "text": "身弱之人，切记求印不求财。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7650089773134138650.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7652356227367767338",
+          "paragraph_id": "P001",
+          "text": "真正厉害的人，都懂得慢慢来。事缓则圆，人缓则安，语迟则贵。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7652356227367767338.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    },
+    {
+      "id": "ifs.opening.hidden-cost.v1",
+      "name": "具体账本与隐性代价",
+      "retrieval_tags": [
+        "赚钱",
+        "创业",
+        "注意力",
+        "社交",
+        "时间管理",
+        "资源分配"
+      ],
+      "job": "把抽象观点变成可以想象或计算的现实账本",
+      "emotional_effect": "警觉、危机感、清醒",
+      "first_beat_skeletons": [
+        "当你把{具体资源}投进{常见选择}，最后拿走结果的可能并不是你。",
+        "看起来你得到了{表面收益}，被消耗掉的却可能是{时间/选择权/注意力/关系成本}。"
+      ],
+      "next_beat": "列出一到两个真实去向、数字或代价",
+      "avoid": [
+        "虚构数字",
+        "绝对化财务结论",
+        "制造无依据恐慌"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7641876208291958051",
+          "paragraph_id": "P001",
+          "text": "无论如何，都要对自己有用的人出手阔绰。每一分钱都该花在能够增值的人身上。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7641876208291958051.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7637487731915918598",
+          "paragraph_id": "P001",
+          "text": "凡是把老人摆在很高位置的普通家庭，基本上都会走下坡路。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7637487731915918598.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7643833205165968680",
+          "paragraph_id": "P001",
+          "text": "范仲淹拿出一千亩田产，放在苏州城外。这笔钱竟然从北宋一直活到了民国，前后九百年，却从没断过。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7643833205165968680.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    },
+    {
+      "id": "ifs.opening.negative-signal.v1",
+      "name": "负面状态反向解释",
+      "retrieval_tags": [
+        "空虚",
+        "迷茫",
+        "关系疏离",
+        "低反馈",
+        "自我怀疑",
+        "人生阶段"
+      ],
+      "job": "先接住负面体验，再提供不自责的新解释",
+      "emotional_effect": "被理解、希望、安定",
+      "first_beat_skeletons": [
+        "如果你最近总在{负面状态}，先别急着否定自己，它可能正在提醒你{旧关系/旧目标/旧节奏}已经不适合了。",
+        "{负面状态}未必说明你退步了，也可能是你开始看见{旧问题}的信号。"
+      ],
+      "next_beat": "补充判断条件和可观察迹象",
+      "avoid": [
+        "浪漫化所有痛苦",
+        "取消现实责任",
+        "用安慰代替解决路径"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7653052955993656628",
+          "paragraph_id": "P001",
+          "text": "如何在缺少正反馈的情况下，依旧保持极高的执行力，去坚持做一件事情？",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7653052955993656628.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7638975546461785384",
+          "paragraph_id": "P001",
+          "text": "什么是弱者着相、强者破相、智者无相？",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7638975546461785384.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7642250423872638223",
+          "paragraph_id": "P001",
+          "text": "你有没有真正想做的事？",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7642250423872638223.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    },
+    {
+      "id": "ifs.opening.no-feedback.v1",
+      "name": "无反馈生存题",
+      "retrieval_tags": [
+        "内容创作",
+        "创作",
+        "播放量",
+        "没有反馈",
+        "没反馈",
+        "学习",
+        "创业",
+        "长期主义",
+        "习惯",
+        "冷启动"
+      ],
+      "job": "命中长期投入中没有认可和结果时最难熬的阶段",
+      "emotional_effect": "共情、希望、行动感",
+      "first_beat_skeletons": [
+        "没有{反馈/认可/资源}的时候，怎么继续{目标行为}？先判断你是在积累，还是只在重复。",
+        "真正难的不是开始，而是在{具体反馈缺失}之后，你还知不知道下一步该改什么。"
+      ],
+      "next_beat": "给一个可观察的有效积累标准",
+      "avoid": [
+        "承诺坚持必然成功",
+        "泛泛鼓励",
+        "把错误重复包装成长期主义"
+      ],
+      "exact_source_openings": [
+        {
+          "material_id": "ifushuo.material.7637487731915918598",
+          "paragraph_id": "P001",
+          "text": "凡是把老人摆在很高位置的普通家庭，基本上都会走下坡路。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7637487731915918598.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7648251421615246611",
+          "paragraph_id": "P001",
+          "text": "如果你有电脑，请疯狂提升自己。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7648251421615246611.transcript.reviewed.md"
+        },
+        {
+          "material_id": "ifushuo.material.7653813315168259334",
+          "paragraph_id": "P001",
+          "text": "有没有喜欢算一算的朋友？你觉得是算得准好，还是算得不准好？你觉得人生剧本是可以改变的吗？大家怎么想，可以把自己的想法写在评论区。",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/02_转写文本/01_最终完整文案/7653813315168259334.transcript.reviewed.md"
+        }
+      ],
+      "callable_surface_elements": [
+        "原句",
+        "数字组合",
+        "熟语组合",
+        "人物顺序",
+        "标志性比喻",
+        "账号口头表达",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "引用、数字、人物经历和研究结论发布前核验"
+      ]
+    }
+  ],
+  "surface_rules": [
+    "开头短、判断先行，但犀利必须来自准确和代价，不来自辱骂。",
+    "第一拍后立即给生活镜像、条件或隐藏代价，不连续堆抽象判断。",
+    "同一家族可重复调用，最近三条脚本不使用完全相同的第一拍骨架。",
+    "开头提出的机制、收益或问题必须在正文第一部分兑现。"
+  ],
+  "quality_gate_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/02_钩子库/高留存开头表达手册.md",
+  "material_reuse_policy": [
+    "允许调用精确来源开头、原句、数字、人物、比喻、熟语组合和承接顺序。",
+    "调用时保留素材ID、段落ID与来源。",
+    "事实性内容发布前核验。"
+  ]
+}

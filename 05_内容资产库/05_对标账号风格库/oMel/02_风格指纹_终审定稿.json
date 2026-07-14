@@ -1,0 +1,156 @@
+{
+  "style_id": "omel.unified.book-to-action.v1",
+  "account_id": "omel",
+  "account_name": "oMel",
+  "style_scope": "unified_account",
+  "sample_count": 19,
+  "analysis_source": "用户提供 SRT 整理后的纯文字文案；16 与 17 为重复正文，来源保留、模式频次去重。",
+  "retrieval_tags": {
+    "themes": [
+      "认知",
+      "个人成长",
+      "自我提升",
+      "自控力",
+      "专注力",
+      "行动力",
+      "习惯",
+      "迷茫",
+      "赚钱意识",
+      "财富观",
+      "职业选择",
+      "人际沟通"
+    ],
+    "emotions": [
+      "焦虑",
+      "自责",
+      "羞耻",
+      "迷茫",
+      "错失感",
+      "希望",
+      "掌控感"
+    ],
+    "hook_functions": [
+      "身份修复",
+      "动作矛盾",
+      "平台此刻窥视",
+      "反向筛选",
+      "未来代价",
+      "反常识诊断"
+    ],
+    "opening_families": [
+      "身份修复＋能力缺口",
+      "具体动作矛盾＋机制追凶",
+      "此刻状态窥视＋低防御承诺",
+      "反向筛选＋留下者身份",
+      "未来代价＋反主流解法"
+    ],
+    "ending_functions": [
+      "要点总结",
+      "原书推荐",
+      "轻度行动邀请",
+      "陪伴式祝福"
+    ]
+  },
+  "default_capabilities": [
+    "用具体动作和平台此刻状态截停",
+    "把人格自责改写成可训练能力或环境机制",
+    "通过反向筛选让留下者获得主动身份",
+    "把书籍精华压缩成编号原则、日常例子和小动作",
+    "用短成本/长代价对比增强长期主题的紧迫感"
+  ],
+  "model_catalog": {
+    "omel.model.attention-mechanism.v1": {
+      "name": "痛点动作—机制追凶—环境动作",
+      "retrieval_tags": [
+        "专注",
+        "拖延",
+        "自控",
+        "手机",
+        "习惯",
+        "内耗"
+      ],
+      "hook_function": "具体动作矛盾或反自责，命名外部机制。",
+      "argument_path": "理想目标或反复失败→动作和时间代价→阻力/环境/注意力机制→书籍原则→一项环境或练习动作。",
+      "rhythm": "开头短动作与问句密集；正文概念、场景、动作交替。",
+      "emotion_route": "羞耻或疲惫→被理解→发现敌人→掌控。",
+      "ending_function": "回收为持续实践与轻度祝福。"
+    },
+    "omel.model.identity-capability.v1": {
+      "name": "身份修复—能力缺口—思维练习",
+      "retrieval_tags": [
+        "粗心",
+        "决策",
+        "认知",
+        "表达",
+        "内耗",
+        "成长"
+      ],
+      "hook_function": "否定人格标签，再给可训练能力和明确收益。",
+      "argument_path": "你并不…只是…→问题表现→书籍/模型资格→错误模式与正确模式对照→自我提问或练习。",
+      "rhythm": "两三句短判断建立尊严，随后用对照模型展开。",
+      "emotion_route": "自责→被尊重→好奇→愿意更新。",
+      "ending_function": "鼓励验证、反思与持续练习。"
+    },
+    "omel.model.selection-to-map.v1": {
+      "name": "反向筛选—精华承诺—编号知识地图",
+      "retrieval_tags": [
+        "长内容",
+        "讲书",
+        "成长",
+        "方法",
+        "环境",
+        "实时操作"
+      ],
+      "hook_function": "给予离开许可、定义留下者或说明真实前置条件。",
+      "argument_path": "筛选/条件→观众身份或工具准备→书籍与精华承诺→编号原则→场景/例子→总结。",
+      "rhythm": "开头快、信息密；正文按编号有规律地换气。",
+      "emotion_route": "被选择/自主→期待→获得路线→稳定行动。",
+      "ending_function": "总结要点、推荐原书、邀请实践。"
+    },
+    "omel.model.future-cost-framework.v1": {
+      "name": "未来代价—反主流命题—长期框架",
+      "retrieval_tags": [
+        "财富",
+        "赚钱",
+        "职业",
+        "选择",
+        "长期主义",
+        "人生路径"
+      ],
+      "hook_function": "将短期问题投射到未来年份或人生代价，再指出传统解释的不足。",
+      "argument_path": "未来损失→反常识结论→书籍/框架→定义与案例→长期动作。",
+      "rhythm": "开头重锤式短句；中段用定义、数字、故事与对比加固。",
+      "emotion_route": "焦虑→警觉→反叛/希望→长期感。",
+      "ending_function": "回到可持续的财富、选择或人生原则。"
+    }
+  },
+  "representative_demo_coverage": {
+    "omel.model.attention-mechanism.v1": [
+      "omel.anchor.attention-mechanism"
+    ],
+    "omel.model.identity-capability.v1": [
+      "omel.anchor.identity-repair"
+    ],
+    "omel.model.selection-to-map.v1": [
+      "omel.anchor.environment-action"
+    ],
+    "omel.model.future-cost-framework.v1": [
+      "omel.anchor.wealth-counterview"
+    ]
+  },
+  "paths": {
+    "manual": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/03_统一文风说明书.md",
+    "evidence_index": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/oMel/03_分析产出/01_逐视频文案机制拆解.csv",
+    "transcripts": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/oMel/02_转写文本/01_最终完整文案",
+    "language_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/04_语言风格指纹.json",
+    "opening_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/05_开头表达指纹.json",
+    "representative_language_demo": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/06_代表正文逐段语言示范.md",
+    "material_library": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/07_对标表层素材库.jsonl"
+  },
+  "material_reuse_policy": [
+    "例子、案例、比喻、个人故事、具体事实、原话、口头表达和原始顺序均可调用。",
+    "调用时保留素材ID、段落ID与来源。",
+    "具名事实、数字、引用、研究和当前信息发布前核验。"
+  ],
+  "material_schema_version": "2.0"
+}

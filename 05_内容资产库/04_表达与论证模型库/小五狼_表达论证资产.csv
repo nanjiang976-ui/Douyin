@@ -1,0 +1,7 @@
+asset_id,source_account,model_id,capability,emotion_effect,use_position,migration_method,no_copy_boundary
+XWA-01,小五狼,xiaowulang.question-framework-checklist.v1,互动式连续设问,让观众从旁观转为自测,开场与章节切换,每段只保留一个真正需要观众判断的问题再立刻推进答案,不复刻原账号口头禅和固定问法
+XWA-02,小五狼,xiaowulang.concept-experiment-life.v1,概念到大白话翻译,降低理解门槛,概念首次出现后,先说概念功能再给一个日常场景避免空讲术语,不用原理论比喻或实验叙述
+XWA-03,小五狼,xiaowulang.question-framework-checklist.v1,编号进度条,长视频的可跟随感,前30秒和主体,预告3到5点并让每点只服务同一个主结论,不机械堆点或照搬原编号
+XWA-04,小五狼,xiaowulang.paradox-identity-action.v1,对照式重新命名,把焦虑转为可控机制,开场和中段,使用不是X而是Y的对照并在后文给出因果解释,不把观众人格化为高低优劣
+XWA-05,小五狼,xiaowulang.concept-experiment-life.v1,场景化论证,增强代入和可信度,每个抽象观点之后,用用户自己的工作关系独处或创作场景说明这个机制,不借用原账号的个人故事
+XWA-06,小五狼,xiaowulang.question-framework-checklist.v1,低门槛行动收束,把理解变成开始做,结尾,只要求一个今天可验证的动作并说明它服务的能力,不使用原账号结尾人设或固定祝福

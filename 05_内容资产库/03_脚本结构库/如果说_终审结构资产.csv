@@ -1,0 +1,6 @@
+model_id,source_account,primary_phase,applicable_topics,hook,argument_chain,objection_handling,ending,emotion_curve,transfer_boundary
+ifushuo.mature.misconception-reframe-action.v1,如果说,mature_31_65,内耗|焦虑|行动|创作|长期主义,断言或痛点悖论,旧解释→反向命名→机制/古语→生活场景→反例→行动问题,中段主动问这是否等于躺平冷漠或不努力再重定义,自问问题或低门槛动作后升华,焦虑→被解释→获得掌控感,事实和案例独立研究不得借原句
+ifushuo.mature.identity-ladder.v1,如果说,mature_31_65,认知升级|情绪|关系|决策,三层或四层身份地图,本能反应→规律抽离→第二层局限→松弛状态→同构场景改写,把层级从人格优劣改为处境和训练阶段,三段排比或新身份确认,自省→升级欲→从容,不以弱者低级等词羞辱观众
+ifushuo.mature.classic-modern-translation.v1,如果说,mature_31_65,传统智慧|处世|人生认知,古语/概念加现代困境,原句/概念→流行误读→现代生活翻译→机制补充→边界→动作→回扣,回答这是否玄学躺平冷漠或宿命,回扣概念并给判断问题,好奇→理解→安定,古籍原文人物和解释均需复核
+ifushuo.transition.story-to-principle.v1,如果说,transition_14_30,历史人物|现实故事|商业方法论,人物最难处境或反差,人物背景→关键选择→结果→规律抽取→现代同构场景→动作,说明故事不是简单复制而是提取条件,将规律落到今天一个可做选择,悬念→可信→行动,不得照搬故事顺序或无证据归因
+ifushuo.early.pressure-to-action.v1,如果说,early_1_13,赚钱意识|执行力|一人公司,现实成本或强判断,高压现实→常见错误→资源机制→对照→行动清单,把强判断收回到适用条件,一项当下行动与复盘指标,警觉→紧迫→行动,降低攻击性避免金融收益承诺

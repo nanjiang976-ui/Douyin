@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "fanbuhuang.language.reframing-guidance.v1",
+  "account_id": "fanbuhuang",
+  "account_name": "范不慌",
+  "source_scope": {
+    "included": "10 份用户提供 SRT 整理后的纯正文文案",
+    "excluded": [
+      "文件名",
+      "标题",
+      "时间码",
+      "字幕序号",
+      "元数据"
+    ],
+    "sample_count": 10
+  },
+  "source_metrics": {
+    "sentences": 1546,
+    "paragraphs": 525,
+    "median_sentence_length_chinese_alnum": 28,
+    "mean_sentences_per_paragraph": 2.94,
+    "exclamation_marks": 0,
+    "interpretation": "语料用较长的因果解释承接心理困境，再以短问或短结论让观众跟上；迁移时应保持成年对话距离。"
+  },
+  "voice": {
+    "relationship": "理解困境的陪伴型解释者，而不是评判观众的人生导师。",
+    "assertion": "先把症状命名，再解释形成机制，最后给能被现实验证的下一步。",
+    "emotion_generation": "来自困境被说清后重新拥有方向感，而不是来自高低身份对比。",
+    "register": "口语化、带推演感；可保留自然设问，但删去口头填充和过度说教。"
+  },
+  "paragraph_breathing": {
+    "baseline": "一个知识点用 2—4 句完成：现象或判断→原因→日常场景→动作或结论。",
+    "sentence_range": "因果解释可较长；每讲完一个机制，用一句短判断回收。",
+    "sequence": [
+      "困境命名",
+      "机制解释",
+      "生活翻译",
+      "选择或动作"
+    ],
+    "avoid": [
+      "连续使用人生决定论",
+      "把观众的痛苦浪漫化",
+      "每一段都塞入名人或古典背书",
+      "以安慰替代具体动作"
+    ]
+  },
+  "claim_scene_pattern": [
+    "每个抽象判断至少接一个普通人可想象的工作、关系、学习或独处场景。",
+    "阶段或方法必须回答不同问题；没有新机制时不加新编号。",
+    "从心理解释转行动时，优先给缩小目标、记录反馈、恢复精力等可观察动作。"
+  ],
+  "transition_functions": [
+    {
+      "function": "从感受进入解释",
+      "method": "先问观众是否遇过某种处境，再将其重命名为更可处理的问题。"
+    },
+    {
+      "function": "从抽象进入生活",
+      "method": "用一个日常选择或互动片段验证概念如何发生。"
+    },
+    {
+      "function": "从方法进入收束",
+      "method": "将宏大主题缩回到当下的一步和长期关系。"
+    }
+  ],
+  "parallelism_control": {
+    "default": "编号是主要组织方式，但只在真实阶段、信号或方法存在时使用。",
+    "permitted": "阶段地图、能力信号、方法步骤和对照关系可以并列；每项必须补充独立机制与场景。",
+    "forbidden": [
+      "为了气势叠加三句空泛鼓励",
+      "照搬传统短语组成排比",
+      "用连续反问逼迫观众认同",
+      "把痛苦与强者身份直接绑定"
+    ]
+  },
+  "banned_surface_habits": [
+    "老天注定、命运安排等决定论叙事",
+    "把心理概念或健康建议写成绝对科学结论",
+    "用古典名言替代自己的论证",
+    "重复使用固定祝福式结尾",
+    "把观众的低谷说成必须感恩的礼物",
+    "泛泛的加油、变强或一切都会好式情绪填充"
+  ],
+  "line_edit_checks": [
+    "开头的困境是否在正文前半段被解释，而非只被煽情？",
+    "每个编号是否新增了机制、场景或动作？",
+    "删去口头填充词后，因果链是否更清楚？",
+    "结尾是否给出稳定感而不是虚假的结果保证？"
+  ],
+  "anchor_cards": [
+    {
+      "source_id": "fbh.anchor.maturity-stages",
+      "source_file": "01_一个人心智成熟",
+      "paragraph_range": "P1-P73",
+      "demo_section": "示范 A",
+      "narrative_job": "用痛苦命名建立阶段地图并回收为接纳",
+      "rhythm": "阶段解释与生活场景交替",
+      "transferable_mechanism": "从状态识别推到升级动作",
+      "avoid": "不使用原阶段名称或人生故事"
+    },
+    {
+      "source_id": "fbh.anchor.confusion-route",
+      "source_file": "02_人生陷入迷茫怎么办",
+      "paragraph_range": "P1-P44",
+      "demo_section": "示范 B",
+      "narrative_job": "反常识定义迷茫后给出五步路线",
+      "rhythm": "问题→原因→方法→场景",
+      "transferable_mechanism": "先缩小现实目标再给行动路径",
+      "avoid": "可复用原比喻和步骤词"
+    },
+    {
+      "source_id": "fbh.anchor.talent-signals",
+      "source_file": "03_八个找到你天赋的方法",
+      "paragraph_range": "P1-P56",
+      "demo_section": "示范 C",
+      "narrative_job": "将自我怀疑转成多信号自我验证",
+      "rhythm": "每个信号以判断和检验条件成对出现",
+      "transferable_mechanism": "信号清单加排除条件",
+      "avoid": "不使用原信号顺序或人物案例"
+    },
+    {
+      "source_id": "fbh.anchor.relationship-actions",
+      "source_file": "10_驭人术的4大手段",
+      "paragraph_range": "P1-P36",
+      "demo_section": "示范 D",
+      "narrative_job": "从关系舒适感倒推互动动作",
+      "rhythm": "原则解释后立刻放进互动片段",
+      "transferable_mechanism": "降低防御→识别需求→托举价值→共鸣",
+      "avoid": "可复用经典术语或历史故事"
+    }
+  ]
+}

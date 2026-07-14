@@ -1,0 +1,9 @@
+asset_id,source_account,source_phase,source_episode_ids,hook_function,emotion_trigger,applicable_topics,transfer_formula,risk,adapted_example,model_id
+IFSH-R01,如果说,mature_31_65,"31;33;59",悖论式重新命名,好奇|被理解,认知成长|内耗,你以为X是问题真正困住你的却是Y,正文必须解释因果与边界,你以为自己缺方法真正缺的是一个不被数据打断的节奏,ifushuo.mature.misconception-reframe-action.v1
+IFSH-R02,如果说,mature_31_65,"45;52;62",传统概念落地,文化熟悉感|求解,传统智慧|自我提升,{经典概念}说的不是玄学而是你每天都在经历的{日常困境},古籍归属和原义独立核验,内观说的不是闭门修行而是把被别人带走的注意力拿回来,ifushuo.mature.classic-modern-translation.v1
+IFSH-R03,如果说,mature_31_65,"60;63",阶段地图,对号入座|升级欲,认知升级|决策,同一件事第一层X第二层Y更成熟的人Z,用阶段描述避免羞辱人格,普通人成长第一层找答案第二层练行动第三层建系统,ifushuo.mature.identity-ladder.v1
+IFSH-R04,如果说,mature_31_65,"42;61",无反馈直击,焦虑|希望,长期主义|内容创作,如何在没有X时依然Y先记住一个判断,不得把延迟反馈说成必然成功,当一条内容没有反馈时怎么继续你先判断自己是在积累还是在重复,ifushuo.mature.misconception-reframe-action.v1
+IFSH-R05,如果说,mature_31_65,"48;64",表面优点揭代价,警觉|自省,处世|认知内化,你以为X是优点它可能恰恰暴露了Y,不得凭外在行为诊断人品,你以为不断展示学习很努力它也可能让你逃避真正的输出,ifushuo.mature.classic-modern-translation.v1
+IFSH-R06,如果说,transition_14_30,"18;24;26",人物困境开门,可信感|悬念,历史人物|现实选择,{人物}最难的时刻不是X而是他看清了Y,先核验人物事件和引用,一个人真正改变命运的瞬间往往不是更拼而是停止和趋势硬碰硬,ifushuo.transition.story-to-principle.v1
+IFSH-R07,如果说,early_1_13,"1;7;12",现实成本断言,危机感|行动,赚钱意识|执行力,说一个现实判断真正让普通人吃亏的不是X而是Y,避免使用唯一绝对和羞辱词,说一个现实判断一人公司最容易亏掉的不是钱而是被碎片任务撕开的注意力,ifushuo.early.pressure-to-action.v1
+IFSH-R08,如果说,mature_31_65,"53;58;65",关系误解纠偏,共鸣|边界感,关系|情绪,你越想X反而越看不清Y,不把关系问题都归咎于观众投射,你越想让对方立刻理解你反而越听不见他真正害怕什么,ifushuo.mature.misconception-reframe-action.v1

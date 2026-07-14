@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "lierba.language.longform-deconstruction.v1",
+  "account_id": "lierba",
+  "account_name": "李二八",
+  "source_scope": {
+    "included": "6 份用户提供 SRT 整理后的纯正文文案",
+    "excluded": [
+      "文件名",
+      "标题",
+      "时间码",
+      "字幕序号",
+      "元数据"
+    ],
+    "sample_count": 6
+  },
+  "source_metrics": {
+    "sentences": 718,
+    "paragraphs": 244,
+    "median_sentence_length_chinese_alnum": 35,
+    "mean_sentences_per_paragraph": 2.94,
+    "exclamation_marks": 0,
+    "interpretation": "语料的解释句比一般口播更长，依赖案例、反例和个人实验维持推进；迁移时需控制篇幅并保留清晰论点。"
+  },
+  "voice": {
+    "relationship": "愿意说真话的同辈实验者，既拆机制也暴露自己正在尝试的现实限制。",
+    "assertion": "先用强判断建立冲突，再必须给出可追溯的推理、案例或实验作为支撑。",
+    "emotion_generation": "来自复杂问题被讲透与普通人仍能行动的现实感，不来自羞辱和夸张承诺。",
+    "register": "允许有锋利和黑色幽默，但新稿应明显减弱攻击性、污名化和挑衅性表达。"
+  },
+  "paragraph_breathing": {
+    "baseline": "一段通常承担一个完整动作：故事、定义、机制、反例、个人证据或行动边界。",
+    "sentence_range": "可使用较长叙述与因果链；每完成一轮推演，以一句短判断或问题让观众换气。",
+    "sequence": [
+      "反差案例或判断",
+      "概念定义",
+      "机制推演",
+      "生活或个人证据",
+      "行动边界"
+    ],
+    "avoid": [
+      "用攻击性语言代替证据",
+      "个人自述过长抢走主题",
+      "三部分目录后不兑现",
+      "把长文案写成无层次的碎片"
+    ]
+  },
+  "claim_scene_pattern": [
+    "每个大观点先由一个有张力的案例或思想实验启动，再说明它为什么可迁移到普通生活。",
+    "个人经历仅用于验证可行性，必须包含限制、取舍或工作流，而不是成功人设。",
+    "高风险或事实型案例要么核验，要么改为假设性场景，避免把叙事当证据。"
+  ],
+  "transition_functions": [
+    {
+      "function": "案例转机制",
+      "method": "先完成案例中真正的矛盾，再命名该矛盾服务的心理或系统机制。"
+    },
+    {
+      "function": "机制转个人证据",
+      "method": "说明自己如何在有限条件下测试这一机制，并保留不确定性。"
+    },
+    {
+      "function": "论证转行动",
+      "method": "给出降低摩擦、建立约束或增加有效尝试的具体规则。"
+    }
+  ],
+  "parallelism_control": {
+    "default": "清单只能作为长论证的骨架，不能替代推理。",
+    "permitted": "一组停止项与建设项、多个检验标准或行为特质可并列；每项须有不同功能。",
+    "forbidden": [
+      "粗口式排比",
+      "把普通人和精英做人格高低分层",
+      "无证据的科学包装",
+      "用一串数字或名人名字制造权威"
+    ]
+  },
+  "banned_surface_habits": [
+    "复制争议性亲密关系、违法或羞辱性材料作为流量钩子",
+    "人身攻击、物化和污名化表达",
+    "用未核验的收入、平台机制、投资结论或心理学数据作保证",
+    "原账号式公开收入承诺或对手贬低",
+    "将自己的短期试验包装成通用定律",
+    "泛泛的燃起来、冲就完了或必然成功式情绪填充"
+  ],
+  "line_edit_checks": [
+    "开头的反差案例是否在前半段完成了机制兑现？",
+    "每段是否只推进一个论证动作？",
+    "个人故事是否包含限制和代价，而不是只展示结果？",
+    "删去攻击性措辞后，结论是否仍然站得住？",
+    "结尾是否给出可执行边界而不是只留下燃点？"
+  ],
+  "anchor_cards": [
+    {
+      "source_id": "leb.anchor.continuous-burden",
+      "source_file": "01_不到30岁的人应该看",
+      "paragraph_range": "P1-P41",
+      "demo_section": "示范 A",
+      "narrative_job": "由反差案例命名持续消耗机制，再用个人创作流程验证",
+      "rhythm": "故事大段铺陈后转入机制和具体取舍",
+      "transferable_mechanism": "案例→概念→个人低成本试验",
+      "avoid": "不使用原争议案例和生活技巧"
+    },
+    {
+      "source_id": "leb.anchor.false-goal",
+      "source_file": "02_别再拿假性目标折磨自",
+      "paragraph_range": "P1-P31",
+      "demo_section": "示范 B",
+      "narrative_job": "以故事冲突拆外部目标，再给行为检验标准",
+      "rhythm": "先讲透一段案例，再以短结论切入模型",
+      "transferable_mechanism": "表现焦虑→目标机制→长期检验",
+      "avoid": "不使用原影视桥段、名人和个人经历"
+    },
+    {
+      "source_id": "leb.anchor.execution",
+      "source_file": "04_良药苦口，多希望有人",
+      "paragraph_range": "P1-P66",
+      "demo_section": "示范 C",
+      "narrative_job": "先打破速效期待，再从机制推到约束和流程",
+      "rhythm": "短句冲突与长逻辑交替，负面和正面清单成对出现",
+      "transferable_mechanism": "错误期待拆解→最低交付标准",
+      "avoid": "可复用粗粝比喻、攻击性表达和清单顺序"
+    },
+    {
+      "source_id": "leb.anchor.agency",
+      "source_file": "06_这篇文在高知圈是真火",
+      "paragraph_range": "P1-P26",
+      "demo_section": "示范 D",
+      "narrative_job": "以思想实验设问，再用特质与逆势案例统一行动力内核",
+      "rhythm": "问题、概念和案例交替，并反复回扣开头选择",
+      "transferable_mechanism": "思想实验→行为特质→问题重构",
+      "avoid": "不使用原来源背书和商业人物案例"
+    }
+  ]
+}

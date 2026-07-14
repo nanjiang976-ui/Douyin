@@ -1,0 +1,7 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+XWT-01,小五狼,xiaowulang.question-framework-checklist.v1,内耗|拖延|自控力|习惯,被理解→掌控感,开场到主体,把一个模糊困扰拆成3到5种可识别的来源或能力模块,不用原账号的分类名称和案例顺序
+XWT-02,小五狼,xiaowulang.paradox-identity-action.v1,高智商困境|行动力|人生停滞,刺痛→清醒→行动,开场与转折,从观众不愿承认的矛盾切入再重命名为可训练的问题,不用贬损性身份标签或原反问句
+XWT-03,小五狼,xiaowulang.concept-experiment-life.v1,心理学|脑科学|决策|习惯,好奇→听懂→有方法,主体,用一个概念解释真实日常难题并配一个可观察场景,不搬运原实验故事和研究归因
+XWT-04,小五狼,xiaowulang.familiar-concept-modern-decision.v1,传统智慧|环境|长期主义|选择,熟悉感→通透,开场到主体,把一个熟悉概念改写成可观察的现代选择或环境机制,不沿用原概念翻译和价值断言
+XWT-05,小五狼,xiaowulang.question-framework-checklist.v1,关系边界|独处|社交自信,安全感→底气,主体到结尾,先处理依赖或怯场的解释再给平等边界动作,不用原关系人物、个人故事或攻击式表述
+XWT-06,小五狼,xiaowulang.paradox-identity-action.v1,成长复盘|自我提升|长期目标,羞耻缓解→自我负责,结尾,把反复失约转成一个可兑现的小承诺而非人格审判,不使用背叛自我等原命名

@@ -1,0 +1,144 @@
+{
+  "schema_version": "2.0",
+  "style_id": "fanbuhuang.unified.v1",
+  "account_id": "fanbuhuang",
+  "account_name": "范不慌",
+  "style_scope": "unified_account",
+  "sample_count": 10,
+  "analysis_source": "用户提供 SRT 整理后的带标点分段正文",
+  "retrieval_tags": {
+    "themes": [
+      "认知",
+      "个人成长",
+      "自我提升",
+      "迷茫",
+      "天赋",
+      "学习",
+      "压力",
+      "心力",
+      "社交"
+    ],
+    "emotions": [
+      "被理解",
+      "希望",
+      "清晰",
+      "安定",
+      "行动感",
+      "自我接纳"
+    ],
+    "hook_functions": [
+      "痛点重命名",
+      "反常识判断",
+      "阶段预告",
+      "方法清单",
+      "人格现象观察"
+    ],
+    "opening_families": [
+      "困境重命名",
+      "反差现象诊断",
+      "成长机会翻转"
+    ],
+    "ending_functions": [
+      "温和鼓励",
+      "小行动",
+      "长期耕耘",
+      "关系舒适感"
+    ]
+  },
+  "default_capabilities": [
+    "把情绪困境解释为可经历的成长任务",
+    "用阶段图或方法清单降低复杂问题的压迫感",
+    "用生活场景翻译抽象心理与能力概念",
+    "以能力、反馈和长期练习替代空泛鼓励",
+    "在结尾由努力收回到自我接纳与稳定感"
+  ],
+  "model_catalog": {
+    "fbh.mindset-stage-map.v1": {
+      "name": "阶段地图－状态识别－升级动作",
+      "retrieval_tags": [
+        "心智成熟",
+        "认知升级",
+        "低谷",
+        "自我评价"
+      ],
+      "hook_function": "先把痛苦或自我评价的反差改写成一个待定位的阶段问题",
+      "argument_path": "困境命名→阶段总图→各阶段症状与误区→升级动作→成熟后的稳定感",
+      "rhythm": "长解释配短问答；每一阶段以现象、原因、场景和判断收束",
+      "emotion_route": "刺痛→被解释→看见路径→安定",
+      "ending_function": "以长期积累和更柔软的自我关系收束"
+    },
+    "fbh.problem-reframe-methods.v1": {
+      "name": "困境重命名－路径清单－现实行动",
+      "retrieval_tags": [
+        "迷茫",
+        "空虚",
+        "低谷",
+        "压力",
+        "行动"
+      ],
+      "hook_function": "把观众熟悉的痛苦重新定义为优先级、意义、资源或身体问题",
+      "argument_path": "反常识定义→原因拆分→编号方法→生活场景→当天可做的一步",
+      "rhythm": "连续设问启动，长因果解释展开，短结论回收每一方法",
+      "emotion_route": "焦虑→被理解→清晰→恢复可控感",
+      "ending_function": "把宏大困境落为一个可观察的选择或恢复动作"
+    },
+    "fbh.ability-discovery-checklist.v1": {
+      "name": "能力信号－自我验证－生态位选择",
+      "retrieval_tags": [
+        "天赋",
+        "职业方向",
+        "能力组合",
+        "学习"
+      ],
+      "hook_function": "先为无效努力去污名，再指出可能是适配关系尚未被识别",
+      "argument_path": "努力困境→能力差异解释→多个观察信号→验证条件→长期投入",
+      "rhythm": "一个信号配一个小场景和一个排除条件，逐项推进",
+      "emotion_route": "委屈→被看见→自我发现→笃定",
+      "ending_function": "强调用长期耕耘等待机会而非追逐短期热潮"
+    },
+    "fbh.relationship-principle-translation.v1": {
+      "name": "关系现象－原则翻译－互动动作",
+      "retrieval_tags": [
+        "社交",
+        "关系",
+        "影响力",
+        "边界",
+        "共鸣"
+      ],
+      "hook_function": "先呈现一种令人舒服又有力量的关系现象",
+      "argument_path": "现象观察→原则解释→对方心理需求→互动场景→关系结果",
+      "rhythm": "口语讲解中穿插具体互动，四个动作逐层递进",
+      "emotion_route": "戒备→安全→被尊重→亲近",
+      "ending_function": "从短期技巧回到去功利化的长期关系"
+    }
+  },
+  "representative_demo_coverage": {
+    "fbh.mindset-stage-map.v1": [
+      "fbh.anchor.maturity-stages"
+    ],
+    "fbh.problem-reframe-methods.v1": [
+      "fbh.anchor.confusion-route"
+    ],
+    "fbh.ability-discovery-checklist.v1": [
+      "fbh.anchor.talent-signals"
+    ],
+    "fbh.relationship-principle-translation.v1": [
+      "fbh.anchor.relationship-actions"
+    ]
+  },
+  "paths": {
+    "manual": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/03_统一文风说明书.md",
+    "evidence_index": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/范不慌/03_分析产出/01_逐视频文案机制拆解.csv",
+    "transcripts": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/范不慌/02_转写文本/01_最终完整文案",
+    "language_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/04_语言风格指纹.json",
+    "opening_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/05_开头表达指纹.json",
+    "representative_language_demo": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/06_代表正文逐段语言示范.md",
+    "material_library": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/07_对标表层素材库.jsonl"
+  },
+  "material_reuse_policy": [
+    "例子、案例、比喻、个人故事、具体事实、原话、口头表达和原始顺序均可调用。",
+    "调用时保留素材ID、段落ID与来源。",
+    "具名事实、数字、引用、研究和当前信息发布前核验。"
+  ],
+  "material_schema_version": "2.0"
+}

@@ -1,0 +1,4 @@
+asset_id,source_account,model_id,opening_family_id,applicable_topics,emotion_effect,use_position,first_beat_skeleton,second_beat,body_first_payoff,quality_gate,migration_method,no_copy_boundary
+FBH-H01,范不慌,fbh.problem-reframe-methods.v1,fbh.opening.reframe-pain.v1,迷茫|空虚|低谷|压力,自责→被理解,开头,你以为{困境}是因为{常见自责}但它更可能在提醒你{待处理机制},用具体处境说明机制如何发生,前两段解释重命名是否成立,一听就懂且正文能兑现,用用户自己的困境变量和事实场景替换,不用原命名转折和比喻
+FBH-H02,范不慌,fbh.mindset-stage-map.v1,fbh.opening.phenomenon-diagnosis.v1,学习|社交|认知|能力,羡慕→好奇→希望,开头,为什么有些人在{高压场景}里反而能{稳定结果}关键未必是{常见解释},提出要解释的阶段或变量,前30秒给出结构总图,反差必须与主题高度相关,以自己的观察和新场景建立反差,不用原人物现象和话术
+FBH-H03,范不慌,fbh.problem-reframe-methods.v1,fbh.opening.growth-opportunity.v1,受挫|重启|长期主义,绝望→松绑→行动感,开头,如果你最近在{低谷处境}这不说明你已经结束也可能正逼你校准{方向或边界},承认痛感并说明后文不是安慰而是条件拆解,前30秒给出第一个现实条件,不许承诺必然逆袭或浪漫化痛苦,将成长入口替换为用户真实处境,不用原宿命解释和故事

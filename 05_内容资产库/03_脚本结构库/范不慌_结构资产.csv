@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+FBH-S01,范不慌,fbh.mindset-stage-map.v1,心智成熟|认知|学习|低谷,刺痛→定位→安定,全篇,困境命名→阶段总图→状态症状与机制→升级动作→长期接纳,不用原阶段数量名称顺序和故事
+FBH-S02,范不慌,fbh.problem-reframe-methods.v1,迷茫|空虚|压力|行动,焦虑→清晰→行动,全篇,反常识定义→原因拆分→方法清单→生活场景→小动作,不用原方法名原例子和结尾
+FBH-S03,范不慌,fbh.ability-discovery-checklist.v1,天赋|职业|能力|技能,委屈→被看见→笃定,全篇,努力困境→能力差异→信号清单→验证条件→长期耕耘,不用原信号列表职业判断和动物比喻
+FBH-S04,范不慌,fbh.relationship-principle-translation.v1,社交|合作|关系|沟通,戒备→安全→亲近,全篇,关系现象→心理需求→互动动作→价值共鸣→去功利收束,不用原古典短语历史人物和关系故事

@@ -1,0 +1,166 @@
+{
+  "schema_version": "2.0",
+  "style_id": "xiaowulang.unified.v2",
+  "account_id": "xiaowulang",
+  "account_name": "小五狼",
+  "style_scope": "unified_account",
+  "sample_count": 20,
+  "analysis_source": "用户提供SRT整理后的带标点分段文案",
+  "retrieval_tags": {
+    "themes": [
+      "认知",
+      "个人成长",
+      "自我提升",
+      "自控力",
+      "内耗",
+      "情绪",
+      "关系",
+      "社交",
+      "决策",
+      "长期主义",
+      "习惯"
+    ],
+    "emotions": [
+      "好奇",
+      "被理解",
+      "清晰",
+      "掌控感",
+      "行动冲动",
+      "变强"
+    ],
+    "hook_functions": [
+      "结果承诺",
+      "二选一自测",
+      "反常识比较",
+      "痛点命名",
+      "传统概念翻译"
+    ],
+    "opening_families": [
+      "不公平比较自测",
+      "二选一后反转",
+      "具体收益加自测",
+      "风险警报与边界",
+      "熟悉概念现代翻译",
+      "人格问题系统化"
+    ],
+    "ending_functions": [
+      "低门槛行动",
+      "自我负责",
+      "现实判断",
+      "希望与鼓励"
+    ]
+  },
+  "default_capabilities": [
+    "把抽象认知拆成编号框架",
+    "用连续自问建立观众对号入座",
+    "概念-大白话-生活场景三段翻译",
+    "先命名问题再解释机制并推进行动",
+    "用小动作收束为可观察的自我调整"
+  ],
+  "model_catalog": {
+    "xiaowulang.question-framework-checklist.v1": {
+      "name": "问题－框架－清单",
+      "retrieval_tags": [
+        "内耗",
+        "自控力",
+        "成长",
+        "行动",
+        "认知提升"
+      ],
+      "hook_function": "结果承诺或二选一自测，让观众立刻把问题放到自己身上",
+      "argument_path": "痛点自测→必要的分类或目录→每点机制与场景→小动作→现实判断",
+      "rhythm": "高频设问、编号推进、每一点都有口语翻译与确认句",
+      "emotion_route": "被戳中→被解释→清晰→想行动",
+      "ending_function": "给一个当天可完成的小动作，再落回可观察的选择"
+    },
+    "xiaowulang.concept-experiment-life.v1": {
+      "name": "概念－实验－生活",
+      "retrieval_tags": [
+        "心理学",
+        "脑科学",
+        "习惯",
+        "经济学",
+        "决策"
+      ],
+      "hook_function": "用一个反常识问题或结果承诺制造知识缺口",
+      "argument_path": "概念命名→理论/研究支点→大白话→日常例子→可观察行为→行动建议",
+      "rhythm": "术语与口语交替，长解释后用短问答确认",
+      "emotion_route": "好奇→听懂→觉得有方法→获得掌控感",
+      "ending_function": "把结论落为环境、习惯或选择上的一个调整"
+    },
+    "xiaowulang.paradox-identity-action.v1": {
+      "name": "悖论－重新命名－行动",
+      "retrieval_tags": [
+        "高智商困境",
+        "内耗",
+        "痛苦",
+        "拖延",
+        "关系"
+      ],
+      "hook_function": "把观众熟悉却不愿承认的矛盾说出来",
+      "argument_path": "刺痛比较→反直觉解释→代价显影→问题重新命名→替代选择",
+      "rhythm": "短句施压、反问确认、长句解释、再用一记结论回收",
+      "emotion_route": "刺痛→理解→清醒→愿意改变",
+      "ending_function": "把外部抱怨转成自己今天可以兑现的一件事"
+    },
+    "xiaowulang.familiar-concept-modern-decision.v1": {
+      "name": "熟悉概念－现代翻译－决策",
+      "retrieval_tags": [
+        "传统智慧",
+        "环境",
+        "人生原则",
+        "长期主义",
+        "选择"
+      ],
+      "hook_function": "将熟悉又有争议的词换成现代生活语言",
+      "argument_path": "熟悉概念→去神秘化翻译→多场景验证→去宿命化→现实决策动作",
+      "rhythm": "传统词、现代词、场景和总结句交替出现",
+      "emotion_route": "好奇→认可→通透→稳定",
+      "ending_function": "用一个判断问题或环境调整收束"
+    }
+  },
+  "representative_demo_coverage": {
+    "xiaowulang.question-framework-checklist.v1": [
+      "20_高认知的4个体现_#"
+    ],
+    "xiaowulang.concept-experiment-life.v1": [
+      "01_三种改变大脑的方式"
+    ],
+    "xiaowulang.paradox-identity-action.v1": [
+      "02_为什么高智商的人往往"
+    ],
+    "xiaowulang.familiar-concept-modern-decision.v1": [
+      "19_风水就是环境心理学！"
+    ]
+  },
+  "opening_signature": {
+    "principle": "用自测、选择或可兑现收益把观众从旁观者变成当事人，再用概念或框架承诺提供解释。",
+    "sequence": [
+      "截停",
+      "观众站队或照见",
+      "解释承诺"
+    ],
+    "preferred_emotional_routes": [
+      "刺痛到被解释",
+      "警觉到边界感",
+      "焦虑到掌控感",
+      "自我否定到行动希望"
+    ],
+    "profile_required": true
+  },
+  "paths": {
+    "manual": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/03_统一文风说明书.md",
+    "evidence_index": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/小五狼/03_分析产出/01_逐视频文案机制拆解.csv",
+    "transcripts": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/小五狼/02_转写文本/01_最终完整文案",
+    "language_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/04_语言风格指纹.json",
+    "opening_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/05_开头表达指纹.json",
+    "representative_language_demo": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/06_代表正文逐段语言示范.md",
+    "material_library": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/07_对标表层素材库.jsonl"
+  },
+  "material_reuse_policy": [
+    "例子、案例、比喻、个人故事、具体事实、原话、口头表达和原始顺序均可调用。",
+    "调用时保留素材ID、段落ID与来源。",
+    "具名事实、数字、引用、研究和当前信息发布前核验。"
+  ],
+  "material_schema_version": "2.0"
+}

@@ -1,0 +1,17 @@
+# Local browser profiles, caches, extensions, and login state
+/03_浏览器运行环境_勿上传/
+**/.edge-*-cdp/
+**/edge-*-cdp/
+
+# Local Python runtime caches
+**/__pycache__/
+**/python_pycache/
+
+# Downloaded original video material; keep transcripts and analysis outputs instead
+**/01_原始视频/
+
+# Local process files and environment secrets
+*.pid
+.env
+.env.*
+!.env.example

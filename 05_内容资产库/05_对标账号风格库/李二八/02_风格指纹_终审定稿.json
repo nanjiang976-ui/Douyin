@@ -1,0 +1,147 @@
+{
+  "schema_version": "2.0",
+  "style_id": "lierba.unified.v1",
+  "account_id": "lierba",
+  "account_name": "李二八",
+  "style_scope": "unified_account",
+  "sample_count": 6,
+  "analysis_source": "用户提供 SRT 整理后的带标点分段正文",
+  "retrieval_tags": {
+    "themes": [
+      "认知",
+      "个人成长",
+      "自我提升",
+      "执行力",
+      "目标",
+      "主观能动性",
+      "内容创作",
+      "长期主义",
+      "状态管理"
+    ],
+    "emotions": [
+      "好奇",
+      "被点醒",
+      "不服气",
+      "希望",
+      "现实感",
+      "行动冲动"
+    ],
+    "hook_functions": [
+      "反常识案例",
+      "粗粝判断",
+      "公开挑战",
+      "权威来源",
+      "思想实验"
+    ],
+    "opening_families": [
+      "非常规案例切入",
+      "强判断加论证契约",
+      "公开可复核试验"
+    ],
+    "ending_functions": [
+      "现实行动",
+      "公开承诺",
+      "长期重复",
+      "自我负责"
+    ]
+  },
+  "default_capabilities": [
+    "用陌生或争议案例打开一个普遍问题",
+    "将一个概念通过长链条推演翻译为现实机制",
+    "以创作者自身的不完美实验提供可信证据",
+    "先击穿速效期待再给流程和约束",
+    "在结尾用具体行动或长期重复替代空泛鼓励"
+  ],
+  "model_catalog": {
+    "leb.contrast-case-to-system.v1": {
+      "name": "反差案例－机制命名－系统改造",
+      "retrieval_tags": [
+        "倦怠",
+        "目标",
+        "状态",
+        "环境",
+        "自我提升"
+      ],
+      "hook_function": "用一个有意外感的案例或物件，制造道德与直觉的双重停顿",
+      "argument_path": "反差案例→概念命名→生活验证→系统机制→低成本调整",
+      "rhythm": "一段完整故事后再进入长解释；每个结论都要回到可观察生活场景",
+      "emotion_route": "惊讶→不适或好奇→听懂→愿意尝试",
+      "ending_function": "以一项可持续的环境或流程调整收束"
+    },
+    "leb.identity-experiment-creator-log.v1": {
+      "name": "公开命题－个人实验－长期复利",
+      "retrieval_tags": [
+        "内容创作",
+        "普通人",
+        "尝试",
+        "概率",
+        "长期主义"
+      ],
+      "hook_function": "提出可追踪的具体命题，并主动暴露自己的起点与限制",
+      "argument_path": "公开承诺→底层原理→反例排除→自身条件盘点→重复行动规则",
+      "rhythm": "大命题与具体工作流交替；自述只服务于证明机制而非塑造人设",
+      "emotion_route": "怀疑→看见证据→希望→愿意持续",
+      "ending_function": "把注意力由单次输赢转向持续有效尝试"
+    },
+    "leb.conflict-deconstruction-to-boundaries.v1": {
+      "name": "尖锐否定－机制拆解－约束设计",
+      "retrieval_tags": [
+        "拖延",
+        "执行力",
+        "焦虑",
+        "行动",
+        "职业化"
+      ],
+      "hook_function": "先否定流行但无效的浅层建议，建立听真话的张力",
+      "argument_path": "反鸡汤→机制解释→错误期待清单→建设性动作→流程化标准",
+      "rhythm": "短句施压后给长解释；负面清单与正向设计成组出现",
+      "emotion_route": "被冒犯→羞耻缓解→清醒→行动",
+      "ending_function": "以最低可交付版本和专业流程收束"
+    },
+    "leb.source-idea-to-agency.v1": {
+      "name": "外部来源－思想实验－行动力内核",
+      "retrieval_tags": [
+        "主观能动性",
+        "解决问题",
+        "选择",
+        "领导力",
+        "成长"
+      ],
+      "hook_function": "借一个来源或思想实验让观众先做选择，再解释选择标准",
+      "argument_path": "来源背书→思想实验→特质拆解→逆势案例→统一内核",
+      "rhythm": "概念、行为特征和商业或生活案例交替，持续回扣最初问题",
+      "emotion_route": "好奇→自我对照→被点燃→行动欲",
+      "ending_function": "回到原问题让观众以一个新标准自测"
+    }
+  },
+  "representative_demo_coverage": {
+    "leb.contrast-case-to-system.v1": [
+      "leb.anchor.continuous-burden",
+      "leb.anchor.false-goal"
+    ],
+    "leb.identity-experiment-creator-log.v1": [
+      "leb.anchor.continuous-burden"
+    ],
+    "leb.conflict-deconstruction-to-boundaries.v1": [
+      "leb.anchor.execution"
+    ],
+    "leb.source-idea-to-agency.v1": [
+      "leb.anchor.agency"
+    ]
+  },
+  "paths": {
+    "manual": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/03_统一文风说明书.md",
+    "evidence_index": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/李二八/03_分析产出/01_逐视频文案机制拆解.csv",
+    "transcripts": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/李二八/02_转写文本/01_最终完整文案",
+    "language_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/04_语言风格指纹.json",
+    "opening_profile": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/05_开头表达指纹.json",
+    "representative_language_demo": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/06_代表正文逐段语言示范.md",
+    "material_library": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/07_对标表层素材库.jsonl"
+  },
+  "material_reuse_policy": [
+    "例子、案例、比喻、个人故事、具体事实、原话、口头表达和原始顺序均可调用。",
+    "调用时保留素材ID、段落ID与来源。",
+    "具名事实、数字、引用、研究和当前信息发布前核验。"
+  ],
+  "material_schema_version": "2.0"
+}

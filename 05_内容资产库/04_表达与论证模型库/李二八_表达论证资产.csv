@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+LEB-E01,李二八,leb.contrast-case-to-system.v1,复杂状态|目标|环境,好奇→理解→可控感,正文,案例讲完后立刻命名机制并用不同生活场景验证其迁移性,不用原争议案例和概念词
+LEB-E02,李二八,leb.identity-experiment-creator-log.v1,内容创作|项目|普通人路径,现实希望→持续感,正文,用自己的限制取舍工作流作为机制证据而非成功炫耀,不用原身份收入数据和个人生活细节
+LEB-E03,李二八,leb.conflict-deconstruction-to-boundaries.v1,拖延|执行力|行动,清醒→执行,正文到结尾,先用机制解除羞耻再以外部约束和最低标准转行动,不用粗粝比喻攻击措辞和原清单
+LEB-E04,李二八,leb.source-idea-to-agency.v1,行动力|选择|解决问题,被点燃→主动性,正文,用思想实验让观众先选择再反推有效行动者的行为特质,不用原来源人物和商业故事

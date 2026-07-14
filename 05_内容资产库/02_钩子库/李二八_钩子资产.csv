@@ -1,0 +1,4 @@
+asset_id,source_account,model_id,opening_family_id,applicable_topics,emotion_effect,use_position,first_beat_skeleton,second_beat,body_first_payoff,quality_gate,migration_method,no_copy_boundary
+LEB-H01,李二八,leb.contrast-case-to-system.v1,leb.opening.unexpected-case.v1,状态|目标|环境|关系,惊讶→求解欲,开头,有一个看似和{主题}无关的现象却恰好暴露了{核心机制},说明不做猎奇判断而会翻译为普通机制,前两段完成案例到机制的转换,案例不可伤害弱势或靠违法猎奇,用安全的假设或真实普通场景替换,不用原争议题材人物和叙事顺序
+LEB-H02,李二八,leb.conflict-deconstruction-to-boundaries.v1,leb.opening.sharp-claim-contract.v1,拖延|行动|认知|成长,被挑战→想听真话,开头,很多人用{流行建议}解决{问题}但它最多解决了{表层层面},承诺会给出机制反例和替代设计,前30秒解释一个核心摩擦,否定后必须有可验证替代解释,用克制语言写出具体盲点,不用粗口攻击和原流行建议
+LEB-H03,李二八,leb.identity-experiment-creator-log.v1,leb.opening.public-experiment.v1,创作|项目|长期尝试,怀疑→参与感,开头,我准备在{周期}内公开测试一个普通人能否通过{重复行动}达到{可观察里程碑},先披露真实限制和验证方式,前30秒给出试验的底层机制,不可虚构数据或保证结果,把实验替换为用户自己的真实项目,不用原目标数字和人生故事

@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+FBH-T01,范不慌,fbh.problem-reframe-methods.v1,迷茫|空虚|低谷|压力,焦虑→被理解→清晰,选题立意,把观众以为的人格问题重新命名为优先级意义资源或恢复问题,不用原困境命名比喻和方法顺序
+FBH-T02,范不慌,fbh.mindset-stage-map.v1,心智成熟|学习|认知升级|职业成长,刺痛→定位感→安定,选题立意,将成长主题写成可识别的阶段与每阶段的升级任务,不用原阶段名称曲线和人物故事
+FBH-T03,范不慌,fbh.ability-discovery-checklist.v1,天赋|职业方向|技能选择|内容定位,自我怀疑→被看见→笃定,选题立意,从努力无效或兴趣摇摆切入再设计多来源验证信号,不用原信号清单和职业对应
+FBH-T04,范不慌,fbh.relationship-principle-translation.v1,社交|合作|关系边界|沟通,戒备→安全→亲近,选题立意,从舒服却有分量的互动现象倒推可练习关系动作,不用古典术语历史故事和权术表达

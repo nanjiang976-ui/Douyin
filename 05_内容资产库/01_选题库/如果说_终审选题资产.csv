@@ -1,0 +1,9 @@
+asset_id,source_account,source_phase,source_episode_ids,applicable_topics,audience_pain,topic_mechanism,emotion_function,migration_method,risk,example_adapted_topic,model_id
+IFST-R01,如果说,mature_31_65,"31;42;61",认知成长|长期主义|内容创作,缺少正反馈就怀疑方向,把无反馈重新命名为反馈延迟与回路校验,缓解羞耻并恢复行动感,用用户自己的创作数据和复盘周期替换原案例,不得承诺坚持必然成功,第一条数据普通时最该保护的不是自尊而是内容回路,ifushuo.mature.misconception-reframe-action.v1
+IFST-R02,如果说,mature_31_65,"45;52;60;62",情绪管理|自我提升,心烦内耗且被外界牵引,把情绪从人格缺陷改写为注意力与解释方式问题,安定与掌控感,用一个具体日常场景加一项低门槛动作,心理/神经科学论据需独立核验,你不是想太多你只是把注意力交给了所有外界信号,ifushuo.mature.misconception-reframe-action.v1
+IFST-R03,如果说,mature_31_65,"48;59;64",认知成长|处世|个人边界,急于证明或担心不被认可,重定义强弱不争与不显摆,从防御转向从容,把古语功能翻译成普通人选择与边界,古籍原义必须核验且避免武断识人,真正的认知不是让你显得厉害而是让你不再急着证明,ifushuo.mature.classic-modern-translation.v1
+IFST-R04,如果说,mature_31_65,"57;60;63",自我提升|长期主义|决策,懂得很多却做不到,把成长写成阶段递进并揭示每层陷阱,对号入座与升级欲,用阶段替代强弱标签并给每层一个同构场景,不得将阶段当作人格等级,普通人改变自己的三层从听懂到行动再到形成系统,ifushuo.mature.identity-ladder.v1
+IFST-R05,如果说,mature_31_65,"58;53;65",关系|情绪|自我边界,关系里过度期待或总想争对错,把关系痛苦重构为投射期待或沟通错位,被理解与边界感,采用用户自己的关系场景但避免诊断他人动机,不可替他人伤害开脱,你越想让所有人理解你越容易失去自己的边界,ifushuo.mature.misconception-reframe-action.v1
+IFST-R06,如果说,transition_14_30,"18;24;26",人物故事|现实选择|方法论,缺少判断参照或在现实困境中摇摆,用人物困境映射现代选择再提炼规律,可信感与可行动感,换成独立核验的人物或用户真实经历,历史因果与名言必须独立核验,真正改变人生的不是硬扛而是知道何时调整自己的位置,ifushuo.transition.story-to-principle.v1
+IFST-R07,如果说,early_1_13,"1;7;12",赚钱意识|一人公司|执行力,资源不足和努力无效焦虑,把现实成本和资源配置写成反常识选择,警觉与行动冲动,用自己的项目时间账和资源约束替代对标案例,避免财务建议和绝对财富结论,一人公司最贵的不是花错钱而是把注意力投给不能复利的事,ifushuo.early.pressure-to-action.v1
+IFST-R08,如果说,mature_31_65,"51;54;56",认知成长|价值观|日常修炼,需要一套可保存的行动工具,用三到十项清单将抽象价值落到日常选择,收藏欲与稳定感,将清单写成用户可验证的行为而非命运断语,避免迷信化因果与道德审判,认知变好的十个信号不是你知道更多而是你做事更稳,ifushuo.mature.classic-modern-translation.v1

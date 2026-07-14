@@ -1,0 +1,4 @@
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
+FBH-E01,范不慌,fbh.problem-reframe-methods.v1,情绪困境|行动|压力,被理解→掌控感,正文,每个抽象判断依次补原因生活场景和一个小动作,不用原场景和心理学断言
+FBH-E02,范不慌,fbh.mindset-stage-map.v1,成长|学习|认知,羞耻缓解→安定,正文,用现象误区反馈动作四拍解释一个阶段而非给人格标签,不用原阶段名曲线与名人故事
+FBH-E03,范不慌,fbh.relationship-principle-translation.v1,关系|社交|合作,安全感→亲近,正文到结尾,先降低防御再识别需求托举价值最后形成共鸣,不用原经典术语权术表达和对话案例
