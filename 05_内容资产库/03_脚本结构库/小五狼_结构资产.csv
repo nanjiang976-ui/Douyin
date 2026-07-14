@@ -1,5 +1,5 @@
-model_id,source_account,applicable_topics,hook,argument_chain,emotion_curve,ending,transfer_boundary
-xiaowulang.question-framework-checklist.v1,小五狼,内耗|自控力|成长|行动|认知提升,结果承诺或二选一自测,痛点自测→3到5点目录→每点机制与场景→小动作→身份收束,被戳中→被解释→清晰→行动,当天可完成的小动作加积极身份感,所有分类名称场景和例子须按新主题重建
-xiaowulang.concept-experiment-life.v1,小五狼,心理学|脑科学|习惯|经济学|决策,反常识问题或知识缺口,概念命名→理论支点→大白话→生活例子→可观察行为→行动建议,好奇→听懂→掌控,让环境或选择产生一个微调,研究、人物、实验和引文必须独立准备
-xiaowulang.paradox-identity-action.v1,小五狼,高智商困境|内耗|痛苦|拖延|关系,刺痛比较或身份悖论,表面矛盾→反直觉解释→代价显影→问题重新命名→替代选择,刺痛→清醒→愿意改变,从外部抱怨回到今日小承诺,不使用原账号的身份羞辱或道德施压
-xiaowulang.familiar-concept-modern-decision.v1,小五狼,传统智慧|环境|长期主义|选择,熟悉概念的现代翻译,熟悉概念→去神秘化→多场景验证→去宿命化→现实动作,好奇→认可→通透→稳定,用判断问题或环境调整收束,不复用原概念翻译、故事和价值断言
+model_id,source_account,applicable_topics,hook,argument_chain,emotion_curve,ending,transfer_boundary,source_script,material_id,paragraph_id,exact_source_excerpt,original_order,verification_status,reuse_guidance
+xiaowulang.question-framework-checklist.v1,小五狼,内耗|自控力|成长|行动|认知提升,结果承诺或二选一自测,痛点自测→3到5点目录→每点机制与场景→小动作→身份收束,被戳中→被解释→清晰→行动,当天可完成的小动作加积极身份感,所有分类名称场景和例子须按新主题重建,08_如何消除内耗根源_#,xiaowulang.material.08_如何消除内耗根源_,P001,"内耗大概分为三种状况。",痛点命名→框架目录→机制与场景→小动作,source_trace_preserved,"每个编号必须有独立机制；重建分类、案例和行动。"
+xiaowulang.concept-experiment-life.v1,小五狼,心理学|脑科学|习惯|经济学|决策,反常识问题或知识缺口,概念命名→理论支点→大白话→生活例子→可观察行为→行动建议,好奇→听懂→掌控,让环境或选择产生一个微调,研究、人物、实验和引文必须独立准备,01_三种改变大脑的方式,xiaowulang.material.01_三种改变大脑的方式,P001,"今天我们来讲大脑可塑性原理。",概念→权威入口→大白话→行为场景→动作,verify_before_publication,"研究与人物独立准备；不要用术语替代场景解释。"
+xiaowulang.paradox-identity-action.v1,小五狼,高智商困境|内耗|痛苦|拖延|关系,刺痛比较或身份悖论,表面矛盾→反直觉解释→代价显影→问题重新命名→替代选择,刺痛→清醒→愿意改变,从外部抱怨回到今日小承诺,不使用原账号的身份羞辱或道德施压,02_为什么高智商的人往往,xiaowulang.material.02_为什么高智商的人往往,P001,"比你蠢的人反而比你运气好。",比较→身份命名→代价→概率行动,source_trace_preserved,"保留矛盾与替代选择；禁止人格羞辱或道德施压。"
+xiaowulang.familiar-concept-modern-decision.v1,小五狼,传统智慧|环境|长期主义|选择,熟悉概念的现代翻译,熟悉概念→去神秘化→多场景验证→去宿命化→现实动作,好奇→认可→通透→稳定,用判断问题或环境调整收束,不复用原概念翻译、故事和价值断言,19_风水就是环境心理学！,xiaowulang.material.19_风水就是环境心理学,P001,"直白地说叫环境心理学。",熟悉概念→现代翻译→多场景→现实动作,verify_before_publication,"不得复用原概念翻译、故事、引文或价值断言。"

@@ -1,6 +1,6 @@
-asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary
-XWH-01,小五狼,xiaowulang.question-framework-checklist.v1,认知|成长|自控,对号入座,首句,用一个有代价的二选一问题让观众立即站队,换成用户主题中的真实选择且不复制题干
-XWH-02,小五狼,xiaowulang.paradox-identity-action.v1,内耗|关系|行动,刺痛与好奇,首句,指出一个观众已有却不愿承认的矛盾再延迟解释,不用原账号的攻击性判词
-XWH-03,小五狼,xiaowulang.question-framework-checklist.v1,自我提升|习惯|效率,升级欲,首句,给出谨慎的收益承诺并立刻说明会讲几个部分,承诺只对应可解释的收益不夸大改变结果
-XWH-04,小五狼,xiaowulang.familiar-concept-modern-decision.v1,传统智慧|环境|选择,熟悉感与反差,首句,把熟悉概念翻译成现代生活语言制造反差,不复制原概念或神秘化表述
-XWH-05,小五狼,xiaowulang.concept-experiment-life.v1,心理学|脑科学|决策,知识缺口,前30秒,先抛生活现象再给出一个概念名称和学习目录,概念必须服务当前主题且不用原研究背书
+asset_id,source_account,model_id,applicable_topics,emotion_effect,use_position,migration_method,no_copy_boundary,source_script,material_id,paragraph_id,exact_source_excerpt,original_order,verification_status,reuse_guidance
+XWH-01,小五狼,xiaowulang.question-framework-checklist.v1,认知|成长|自控,对号入座,首句,用一个有代价的二选一问题让观众立即站队,换成用户主题中的真实选择且不复制题干,16_解决问题的能力可以提,xiaowulang.material.16_解决问题的能力可以提,P001,"今天我有两个问题，第一个问题是，你觉得一个人身上最重要的品质是什么。",问题一→问题二加矛盾→概念解释,source_trace_preserved,"保留一个真实判断问题；删除公屏互动与课堂口吻。"
+XWH-02,小五狼,xiaowulang.paradox-identity-action.v1,内耗|关系|行动,刺痛与好奇,首句,指出一个观众已有却不愿承认的矛盾再延迟解释,不用原账号的攻击性判词,02_为什么高智商的人往往,xiaowulang.material.02_为什么高智商的人往往,P001,"比你蠢的人反而比你运气好。",比较刺痛→身份命名→反直觉解释,source_trace_preserved,"改写为不羞辱任何人的现实矛盾；正文解释变量。"
+XWH-03,小五狼,xiaowulang.question-framework-checklist.v1,自我提升|习惯|效率,升级欲,首句,给出谨慎的收益承诺并立刻说明会讲几个部分,承诺只对应可解释的收益不夸大改变结果,05_如何在一天内改变人生,xiaowulang.material.05_如何在一天内改变人生,P001,"看完这期内容，无论男女你都会不由自主的不可逆转地变强。",强收益→主题说明→自测问题,verify_before_publication,"将强收益降为正文能兑现的小判断或小动作；不复用不可逆变强。"
+XWH-04,小五狼,xiaowulang.familiar-concept-modern-decision.v1,传统智慧|环境|选择,熟悉感与反差,首句,把熟悉概念翻译成现代生活语言制造反差,不复制原概念或神秘化表述,19_风水就是环境心理学！,xiaowulang.material.19_风水就是环境心理学,P001,"西洋风水学，直白地说叫环境心理学。",熟悉概念→现代翻译→问题抛出,verify_before_publication,"迁移去神秘化与生活翻译；概念、引文和学术主张必须核验。"
+XWH-05,小五狼,xiaowulang.concept-experiment-life.v1,心理学|脑科学|决策,知识缺口,前30秒,先抛生活现象再给出一个概念名称和学习目录,概念必须服务当前主题且不用原研究背书,01_三种改变大脑的方式,xiaowulang.material.01_三种改变大脑的方式,P001,"今天我们来讲大脑可塑性原理。",收益承诺→概念命名→权威入口→目录,verify_before_publication,"概念后立刻给大白话和场景；不搬运专家背书。"

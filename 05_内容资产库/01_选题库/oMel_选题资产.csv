@@ -1,0 +1,6 @@
+asset_id,source_account,source_script,material_id,paragraph_id,applicable_topics,emotion_effect,use_position,exact_source_excerpt,original_order,verification_status,migration_method,reuse_guidance
+OMET-TA-01,oMel,13_自控力可能是这个时代,omel.material.13_自控力可能是这个时代,P001,自控力|拖延|习惯|行动力,自责→希望,选题立意与开头,"自控力绝对是现在网上最被人们高估的能力。",个人前后反差→留下真正变量,source_trace_preserved,把自控问题改写成环境和行为摩擦问题,"从用户真实的失败动作和环境开始；不可编造个人前后经历。"
+OMET-TA-02,oMel,15_被偷走的专注力_#提,omel.material.15_被偷走的专注力_-提,P001,专注力|手机|学习|创作|注意力,羞耻→被理解,选题立意与开头,"所有人都被卡在了第一个步骤：放下手机。",理想生活动作→第一步失败→不是你的错→外部机制,source_trace_preserved,把一个理想身份拆为若干动作并找出最早失败的步骤,"替换为目标人群真实的动作清单；注意力机制和数据发布前核验。"
+OMET-TA-03,oMel,02_Diary_of_a,omel.material.02_Diary_of_a,P001,迷茫|成长|成功焦虑|长期主义,迷茫→路径感,选题立意,"该努力的时候没有懈怠……但不知道为什么，就是感觉没有一点要成功的迹象。",努力却无反馈→重排成功链条→小行动,source_trace_preserved,把“没有进展”从努力不足改写为顺序或系统问题,"用用户真实阶段代替泛化成功叙事；不保证看完即可改变现状。"
+OMET-TA-04,oMel,18_金钱心理学_#提升自,omel.material.18_金钱心理学_-提升自,P001,赚钱意识|消费|储蓄|财富观|长期主义,焦虑→掌控,选题立意与账本场景,"自己的钱总是不够花……不到月中就已经差不多花完了。",月度账本→收入幻觉→财富定义→长期习惯,verify_before_publication,从日常现金流体验进入财富观和消费选择,"不提供投资建议；财务数据、书籍引文与人物案例必须独立核验。"
+OMET-TA-05,oMel,04_The_Pathle,omel.material.04_The_Pathle,P001,人生选择|职业|普通人改变|自主性,焦虑→自主感,选题立意与开头,"看不到任何出路的路才是我们人生的道路。",未来遗憾→默认路径→反常识命题→主动选择,verify_before_publication,把“迷茫”写成识别默认脚本和重新选择的机会,"用用户自己的职业/人生选择场景；引用与书籍观点发布前核验。"

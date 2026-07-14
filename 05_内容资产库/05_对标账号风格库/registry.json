@@ -23,8 +23,12 @@
     "require_source_trace": true,
     "require_benchmark_material_retrieval": true,
     "minimum_material_records": 1,
-    "allow_exact_surface_reuse": true,
-    "require_fact_verification_status": true
+    "allow_exact_surface_reuse": false,
+    "require_original_expression": true,
+    "require_fact_verification_status": true,
+    "routing_mode": "rank_all_local_accounts_then_discover_if_no_fit",
+    "domains_are_retrieval_signals_not_topic_limits": true,
+    "no_local_fit_action": "search and confirm a new benchmark account or video before drafting in a benchmark style"
   },
   "accounts": [
     {
@@ -49,23 +53,13 @@
         "商业",
         "执行力"
       ],
-      "routing_hints": {
-        "default_for": [
-          "自我证明",
-          "被误解",
-          "自我怀疑",
-          "内耗",
-          "长期主义",
-          "关系",
-          "成人表达"
-        ],
-        "preferred_when": [
-          "反思",
-          "观点",
-          "困境",
-          "选择"
-        ]
-      },
+      "style_traits": [
+        "强观点后迅速落生活场景",
+        "误解重构",
+        "抽象概念的现代翻译",
+        "克制而有力量的情绪收束",
+        "反方预处理"
+      ],
       "fingerprint_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/02_风格指纹_终审定稿.json",
       "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/如果说/03_统一文风说明书.md",
       "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/如果说_高流量视频_20260701/03_分析产出/06_全65条逐视频拆解证据索引.csv",
@@ -92,21 +86,13 @@
         "习惯",
         "行动力"
       ],
-      "routing_hints": {
-        "preferred_when": [
-          "方法",
-          "清单",
-          "框架",
-          "自测",
-          "心理学",
-          "脑科学",
-          "习惯",
-          "自控",
-          "决策",
-          "教学"
-        ],
-        "generic_penalty": 2.5
-      },
+      "style_traits": [
+        "互动式自测开场",
+        "编号框架",
+        "概念的大白话翻译",
+        "知识到行动",
+        "解释型节奏"
+      ],
       "fingerprint_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/02_风格指纹_终审定稿.json",
       "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/小五狼/03_统一文风说明书.md",
       "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/小五狼/03_分析产出/01_逐视频文案机制拆解.csv",
@@ -130,19 +116,13 @@
         "学习",
         "社交"
       ],
-      "routing_hints": {
-        "preferred_when": [
-          "困境重命名",
-          "阶段地图",
-          "温和解释",
-          "方法清单",
-          "长期耕耘"
-        ],
-        "avoid_when": [
-          "需要强案例冲突",
-          "需要公开实验叙事"
-        ]
-      },
+      "style_traits": [
+        "困境重命名",
+        "阶段地图",
+        "温和解释",
+        "路径清单",
+        "长期耕耘式收束"
+      ],
       "fingerprint_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/02_风格指纹_终审定稿.json",
       "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/范不慌/03_统一文风说明书.md",
       "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/范不慌/03_分析产出/01_逐视频文案机制拆解.csv",
@@ -166,19 +146,13 @@
         "长期主义",
         "状态管理"
       ],
-      "routing_hints": {
-        "preferred_when": [
-          "反差案例",
-          "长论证",
-          "个人试错",
-          "公开挑战",
-          "执行力"
-        ],
-        "avoid_when": [
-          "需要短平快清单",
-          "主题缺乏可讲透的机制"
-        ]
-      },
+      "style_traits": [
+        "反差案例起手",
+        "长链条论证",
+        "个人试错证据",
+        "现实约束",
+        "行动实验收束"
+      ],
       "fingerprint_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/02_风格指纹_终审定稿.json",
       "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/李二八/03_统一文风说明书.md",
       "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/李二八/03_分析产出/01_逐视频文案机制拆解.csv",
@@ -205,24 +179,14 @@
         "职业选择",
         "人际沟通"
       ],
-      "routing_hints": {
-        "preferred_when": [
-          "强钩子",
-          "身份修复",
-          "动作矛盾",
-          "反向筛选",
-          "读书提炼",
-          "自控力",
-          "专注力",
-          "行动力",
-          "财富框架"
-        ],
-        "avoid_when": [
-          "需要温和低刺激叙事",
-          "正文无法兑现强收益",
-          "需要即时投资建议"
-        ]
-      },
+      "style_traits": [
+        "动作细节开场",
+        "身份修复",
+        "机制追问",
+        "反向筛选",
+        "高收益承诺后快速兑现",
+        "强钩子"
+      ],
       "fingerprint_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/02_风格指纹_终审定稿.json",
       "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/03_统一文风说明书.md",
       "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/oMel/03_分析产出/01_逐视频文案机制拆解.csv",

@@ -1,7 +1,7 @@
-asset_id,source_account,model_id,capability,emotion_effect,use_position,migration_method,no_copy_boundary
-XWA-01,小五狼,xiaowulang.question-framework-checklist.v1,互动式连续设问,让观众从旁观转为自测,开场与章节切换,每段只保留一个真正需要观众判断的问题再立刻推进答案,不复刻原账号口头禅和固定问法
-XWA-02,小五狼,xiaowulang.concept-experiment-life.v1,概念到大白话翻译,降低理解门槛,概念首次出现后,先说概念功能再给一个日常场景避免空讲术语,不用原理论比喻或实验叙述
-XWA-03,小五狼,xiaowulang.question-framework-checklist.v1,编号进度条,长视频的可跟随感,前30秒和主体,预告3到5点并让每点只服务同一个主结论,不机械堆点或照搬原编号
-XWA-04,小五狼,xiaowulang.paradox-identity-action.v1,对照式重新命名,把焦虑转为可控机制,开场和中段,使用不是X而是Y的对照并在后文给出因果解释,不把观众人格化为高低优劣
-XWA-05,小五狼,xiaowulang.concept-experiment-life.v1,场景化论证,增强代入和可信度,每个抽象观点之后,用用户自己的工作关系独处或创作场景说明这个机制,不借用原账号的个人故事
-XWA-06,小五狼,xiaowulang.question-framework-checklist.v1,低门槛行动收束,把理解变成开始做,结尾,只要求一个今天可验证的动作并说明它服务的能力,不使用原账号结尾人设或固定祝福
+asset_id,source_account,model_id,capability,emotion_effect,use_position,migration_method,no_copy_boundary,source_script,material_id,paragraph_id,exact_source_excerpt,original_order,verification_status,reuse_guidance
+XWA-01,小五狼,xiaowulang.question-framework-checklist.v1,互动式连续设问,让观众从旁观转为自测,开场与章节切换,每段只保留一个真正需要观众判断的问题再立刻推进答案,不复刻原账号口头禅和固定问法,16_解决问题的能力可以提,xiaowulang.material.16_解决问题的能力可以提,P001,"今天我有两个问题。",问题→观众判断→下一问推进矛盾,source_trace_preserved,"只保留真正决定论证方向的一个问题；删除公屏互动。"
+XWA-02,小五狼,xiaowulang.concept-experiment-life.v1,概念到大白话翻译,降低理解门槛,概念首次出现后,先说概念功能再给一个日常场景避免空讲术语,不用原理论比喻或实验叙述,01_三种改变大脑的方式,xiaowulang.material.01_三种改变大脑的方式,P001,"今天我们来讲大脑可塑性原理。",概念→解释→日常行为场景,verify_before_publication,"用自己的生活例子翻译概念；研究和实验单独核验。"
+XWA-03,小五狼,xiaowulang.question-framework-checklist.v1,编号进度条,长视频的可跟随感,前30秒和主体,预告3到5点并让每点只服务同一个主结论,不机械堆点或照搬原编号,20_高认知的4个体现_#,xiaowulang.material.20_高认知的4个体现_,P037,"以上四个点，就是可以让我们简单地去判断一个人是高认知还是低认知。",四点展开→总结回收→自检,source_trace_preserved,"编号只服务真实分类；每点必须有不同机制或动作。"
+XWA-04,小五狼,xiaowulang.paradox-identity-action.v1,对照式重新命名,把焦虑转为可控机制,开场和中段,使用不是X而是Y的对照并在后文给出因果解释,不把观众人格化为高低优劣,02_为什么高智商的人往往,xiaowulang.material.02_为什么高智商的人往往,P001,"比你蠢的人反而比你运气好。",刺痛比较→反直觉解释→问题重命名,source_trace_preserved,"对照必须指向机制和选择；禁止高低人格判断。"
+XWA-05,小五狼,xiaowulang.concept-experiment-life.v1,场景化论证,增强代入和可信度,每个抽象观点之后,用用户自己的工作关系独处或创作场景说明这个机制,不借用原账号的个人故事,07_如何应对生命中的痛苦,xiaowulang.material.07_如何应对生命中的痛苦,P001,"你有没有在睡觉之前，突然想到了某件事情某个人，然后开始痛苦不堪辗转反侧难以入睡。",抽象痛苦→夜晚场景→概念解释,source_trace_preserved,"用用户自己的工作、关系、独处或创作场景，不借用原个人故事。"
+XWA-06,小五狼,xiaowulang.question-framework-checklist.v1,低门槛行动收束,把理解变成开始做,结尾,只要求一个今天可验证的动作并说明它服务的能力,不使用原账号结尾人设或固定祝福,10_如何通过八步重启人生,xiaowulang.material.10_如何通过八步重启人生,P059,"从不要背叛自己今天设立的三个小目标开始。",观点总结→一个当天行动→祝福收束,source_trace_preserved,"写成一个当天可观察的动作；不复用原结尾身份与口头禅。"
