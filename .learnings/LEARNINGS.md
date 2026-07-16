@@ -6,6 +6,38 @@ Corrections, insights, and knowledge gaps captured during development.
 
 ---
 
+## [LRN-20260715-001] correction
+
+**Logged**: 2026-07-15T12:00:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: content-system
+
+### Summary
+认知文案不能把所有三拍同构表达视为AI排比；应区分空洞重复与每拍增加不同判断的功能性压缩。
+
+### Details
+用户认可“截停—照见—答案—信任成本”式高密度判断，并指出旧规则过度禁止排比，导致分析语言比正式文案更锋利。用户同时提供32条可拆分开头资产，明确短句和固定搭配可以直接调用，长钩子必须拆分重组。来源型对标指纹与用户授权表达库需要分层保存，避免原创性规则误杀用户明确允许的复用。
+
+### Suggested Action
+完整稿先用一个用户主骨架和一至两个组件生成三种开头候选；审稿时检查每拍是否增加观察、机制、后果或其他新信息。允许记录过的短固定搭配，禁止完整长钩子轻改；“今天我们来讲”只允许在真实钩子之后作桥接。
+
+### Metadata
+- Source: user_feedback
+- Related Files: C:/Users/NJ/.codex/skills/douyin-cognition-script-builder/SKILL.md, 05_内容资产库/02_钩子库/用户精选开头钩子库.json
+- Tags: douyin, hook-library, functional-compression, parallelism, user-language
+- Pattern-Key: content.functional_compression_and_user_hook_layer
+- Recurrence-Count: 1
+- First-Seen: 2026-07-15
+- Last-Seen: 2026-07-15
+- Promoted: douyin-cognition-script-builder, calibration-personal-language-record
+
+### Resolution
+- **Resolved**: 2026-07-15T12:00:00+08:00
+- **Notes**: 用户钩子库、三候选结构门、功能性压缩规则和自动审稿用例均已实现。
+
+---
+
 ## [LRN-20260714-005] correction
 
 **Logged**: 2026-07-14T01:38:20+08:00
