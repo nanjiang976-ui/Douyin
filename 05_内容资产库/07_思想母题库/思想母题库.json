@@ -5,15 +5,19 @@
   "purpose": "为认知类口播稿提供可核验、可翻译、可贯穿全文的思想命题，而不是装饰性名言。",
   "retrieval_policy": {
     "mandatory_retrieval_for_complete_cognition_script": true,
+    "mandatory_fresh_web_discovery_for_complete_script": true,
     "default_primary_motif_count": 1,
     "minimum_relevance_score": 15,
     "duration_rule": "不设视频时长门槛；每篇完整认知稿都必须采用至少一条与论点匹配且已经核验的名言、经典原句或思想片段。",
+    "web_discovery_rule": "每篇完整认知稿在本地检索后都必须围绕核心冲突、论点、观众处境和已分类来源执行至少一次专项联网名言/思想片段检索，即使本地已有高匹配条目也不能跳过。",
+    "library_expansion_rule": "联网搜索是强制动作，新材料的采用和入库是条件动作；只有来源可追溯、核验状态合格、与现有条目不重复、字段完整且具有跨选题复用价值的候选才能入库，否则记录本次无合格新增并保持母题库不变。",
+    "discovery_logging_rule": "思想母题调用卡必须记录专项查询词与渠道、新候选核验状态、新旧候选比较、原句和语义去重结果，以及新增ID或本次无合格新增。",
     "quotation_quantity_rule": "不设固定引用数量上限；按论证层次和口播节奏调用同一著作或思想体系中的关联片段，每次引用必须增加新的语境、机制、证据、转折或结尾功能。",
     "auxiliary_source_rule": "保持一个核心思想统领全文；辅助思想来源不设机械数量上限，但每个来源必须服务独立分论点、与核心母题建立清楚关系，并通过名言拼盘审查。",
     "preferred_use": "用一个思想命题统领全文；同一体系中的关联片段可以在中段深化和结尾回扣。",
     "forbidden_use": "禁止把互不相关的名句拼成报告，禁止用名人权威替代论证，禁止把宗教伦理命题冒充经验事实。",
     "direct_quote_rule": "只有 verified_primary 或 verified_authoritative_secondary 条目可以具名直引；其他状态只能继续核验，不能进入口播。",
-    "fallback_rule": "没有高匹配条目时，先联网研究并按本结构新增已核验条目；找到真正匹配的材料并完成调用卡后才能进入正文，不能因稿件较短而跳过，也不能强塞低匹配名言。"
+    "fallback_rule": "本地与新发现候选都没有高匹配条目时，继续联网研究并按本结构新增已核验条目；找到真正匹配的材料并完成调用卡后才能进入正文，不能因稿件较短而跳过，也不能强塞低匹配名言。"
   },
   "verification_statuses": [
     {"id": "verified_primary", "direct_quote_allowed": true, "meaning": "已定位到原典、作者正式文本或权威原文转录。"},
