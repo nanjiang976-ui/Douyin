@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,material_id,paragraph_id,applicable_topics,emotion_effect,use_position,source_function,original_order,verification_status,transformation_guidance,no_copy_boundary
+MGH-S01,芒果猴思维破局,mgh.boundary-risk-defense.v1,mangguohou.material.09_成年人必修课_套话,P001,职场|社交|拒绝|信息边界,后怕→识破→从容,全篇,把隐性风险拆成可演示陷阱并让对策一一对应,危险法则→日常场景→心理按钮→中计后果→防守台词→体面收束,verify_before_publication,围绕一个新风险设计二至三组场景机制和动作闭环,不用原三类套话工资猎头借钱顺序与台词
+MGH-S02,芒果猴思维破局,mgh.identity-cost-rebuild.v1,mangguohou.material.10_戒掉_精神跪姿_-你,P001,配得感|自卑|气场|机会,窘迫→去魅→占位,全篇,用损失和身体症状把身份问题变成可训练系统,身份判断→损失账单→生活自测→角色切换→编号动作→尊严修复,verify_before_publication,选择新的身份姿态和真实场景构建从认知到身体的重建路径,不用原精神跪姿草台班子玩家NPC入场券与动作清单
+MGH-S03,芒果猴思维破局,mgh.lowpoint-micro-experiment.v1,mangguohou.material.04_从一无所有到30万粉,P001,低谷|动力|技能|创作,羞耻→被理解→掌控→行动,全篇,个人同起点只证明微小闭环能恢复掌控感,困境矛盾→个人同起点→障碍重命名→反驳宏大翻盘→微小试验→双条件→行动,verify_before_publication,使用用户自己的真实经历并同时写清上行收益和保底收益,不用原个人结果数字平台例子与副业叙事顺序
+MGH-S04,芒果猴思维破局,mgh.paradox-mechanism-action.v1,mangguohou.material.05_保护_不快乐_的能力,P001,快乐|欲望|主动|长期主义,反常识→理解→珍惜或行动,全篇,让一个悖论经过极端情境普通生活和行动仪式三次验证,悖论公式→系统比喻→机制→极端案例→普通人镜像→小仪式→格言或诗性收束,verify_before_publication,新建比喻和案例并确保哲理在前半段可解释后半段可行动,不用原游戏人物交通工具消费对照和季节意象

@@ -1,0 +1,210 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "mangguohou.opening.v1",
+  "account_id": "mangguohou",
+  "account_name": "芒果猴思维破局",
+  "sample_count": 15,
+  "independent_opening_count": 14,
+  "source_scope": "15 份纯正文的第一段与逐视频证据索引；重复正文保留来源但稳定频率按 14 个独立开头判断",
+  "evidence_note": "未提供真实 3 秒、5 秒、完播率、点赞或收藏数据。以下家族仅由文本重复机制归纳，属于写作机制证据，不能声称具有已验证的留存效果；D01 两份相同开头只计一个独立证据。",
+  "opening_principle": "第一拍把一个熟悉行为改写为隐藏风险、身份代价或反直觉规律；第二拍用具体损失场景让观众照见；第三拍留下机制答案或防守/行动收益。",
+  "opening_sequence": [
+    "强判断、禁令、命运因果或悖论截停",
+    "用职场、亲友、消费、低谷或行动场景让观众照见自己",
+    "留下为什么会这样以及如何收回边界或行动权的答案缺口"
+  ],
+  "emotion_buttons": [
+    "警觉到边界",
+    "羞耻到被理解",
+    "窘迫到配得",
+    "反常识到掌控",
+    "绝望到行动"
+  ],
+  "families": [
+    {
+      "id": "mgh.opening.prohibition-hidden-cost.v1",
+      "name": "禁令－隐性代价－防守收益",
+      "status": "source_repeated",
+      "independent_source_count": 4,
+      "retrieval_tags": [
+        "社交边界",
+        "职场沟通",
+        "说话",
+        "自卑",
+        "拒绝",
+        "关系风险"
+      ],
+      "job": "先禁止一个观众习惯做的动作，或给出一条反常规生存法则，让他担心自己正在交出关系、信息、机会或尊严。",
+      "emotional_effect": "从警觉、后怕或不服气，推进到想知道正确防守方式。",
+      "first_beat_skeletons": [
+        "永远不要在{高风险场景}轻易{习惯动作}，因为你可能正在向别人发送{不利信号}。",
+        "不要只回应对方的{表面问题}，先判断他真正想获得的{筹码或结果}。",
+        "在{互动维度A}上{低成本利他}，在{稀缺维度B}上{清晰守界}。"
+      ],
+      "source_opening_references": [
+        {
+          "material_id": "mangguohou.material.01_一个人最大的自律-是-1",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/01_一个人最大的自律，是(1).md"
+        },
+        {
+          "material_id": "mangguohou.material.07_别让你的嘴-出卖了你",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/07_别让你的嘴，出卖了你.md"
+        },
+        {
+          "material_id": "mangguohou.material.15_顶级狠人的_双重人格",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/15_顶级狠人的_双重人格.md"
+        }
+      ],
+      "next_beat": "立刻列一个观众见过的关系或职场后果，再解释对方目的、身份信号或自己的情绪按钮。",
+      "transformable_surface_functions": [
+        "具体场景",
+        "数字或事实的证据角色",
+        "熟语或概念的反差功能",
+        "人物或比喻在开头中的作用",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "心理学概念、古语、数字损失和普遍人性判断发布前核验或改为观点",
+        "示范回应不得构成欺骗、操控或对违法行为的规避"
+      ],
+      "avoid": [
+        "只下绝对禁令却不说明适用边界",
+        "用傻瓜、弱者、穷人等人格羞辱制造停留",
+        "复刻来源禁令、对偶金句、关系故事和对话",
+        "把所有提问者或亲友都预设为恶意"
+      ]
+    },
+    {
+      "id": "mgh.opening.fate-cause-turnaround.v1",
+      "name": "命运因果－身份照见－翻盘承诺",
+      "status": "source_repeated",
+      "independent_source_count": 7,
+      "retrieval_tags": [
+        "低谷",
+        "赚钱意识",
+        "善良",
+        "单纯",
+        "开口",
+        "技能学习",
+        "配得感"
+      ],
+      "job": "用命运、财富、身份或人生结果的强因果判断，把观众停滞解释为一个被忽略的行为机制，并承诺重新获得机会。",
+      "emotional_effect": "先让观众因被说中或被冒犯而停下，再从羞耻转向可改变。",
+      "first_beat_skeletons": [
+        "你一直得不到{想要结果}，可能不是因为{常见自责}，而是你反复在做{隐藏耗损动作}。",
+        "改变{人生结果}最先要练的不是{宏大能力}，而是把每次“我不行”改写成{下一步问题}。",
+        "为什么你明明已经{现实危机}，却仍在{麻醉或回避动作}？问题也许不是懒，而是{待解释机制}。",
+        "告诉你一个关于{机会/资源}的低成本漏洞：你越敢进行{可承受试探}，越可能获得{反馈或入口}。"
+      ],
+      "source_opening_references": [
+        {
+          "material_id": "mangguohou.material.04_从一无所有到30万粉",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/04_从一无所有到30万粉.md"
+        },
+        {
+          "material_id": "mangguohou.material.11_改命最简单的方法-把",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/11_改命最简单的方法：把.md"
+        },
+        {
+          "material_id": "mangguohou.material.12_敢于开口的人-早就赢",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/12_敢于开口的人，早就赢.md"
+        }
+      ],
+      "next_beat": "用一至两个具体症状让观众完成身份照见，再交代创作者同起点、现实代价或后文将拆出的两个原因。",
+      "transformable_surface_functions": [
+        "具体场景",
+        "数字或事实的证据角色",
+        "熟语或概念的反差功能",
+        "人物或比喻在开头中的作用",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "账号粉丝、收入、软件商业化、AI 产品功能等当前或结果型事实发布前核验",
+        "财富和好运因果必须改为有条件的判断，不得保证结果"
+      ],
+      "avoid": [
+        "承诺改命、发财、抢回财运或必然获得机会",
+        "把暂时低谷归结为人格缺陷或道德失败",
+        "用创作者单个成功结果证明所有人都适用",
+        "复刻来源的结果数字、身份标签和秘密话术"
+      ]
+    },
+    {
+      "id": "mgh.opening.paradox-formula-map.v1",
+      "name": "悖论公式－极端画面－机制缺口",
+      "status": "source_repeated",
+      "independent_source_count": 3,
+      "retrieval_tags": [
+        "快乐",
+        "节制",
+        "主动",
+        "行动力",
+        "社交位置",
+        "长期主义"
+      ],
+      "job": "用对仗悖论、数字公式或三段对称规则一次改变观众的概念方向，让他必须继续听解释。",
+      "emotional_effect": "从“这怎么可能”的反常识好奇，推进到希望获得一张完整机制图。",
+      "first_beat_skeletons": [
+        "真正让你获得{正向体验}的，可能恰恰是被你急着消灭的{反向条件}。",
+        "一次{真实动作}，往往比许多次{脑内预演}更能结束折磨。",
+        "面对{位置A}不要只展示{品质A}，面对{位置B}不要只展示{品质B}，面对{位置C}不要只展示{品质C}。"
+      ],
+      "source_opening_references": [
+        {
+          "material_id": "mangguohou.material.05_保护_不快乐_的能力",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/05_保护_不快乐_的能力.md"
+        },
+        {
+          "material_id": "mangguohou.material.13_知识春节巨献___好",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/13_知识春节巨献___好.md"
+        },
+        {
+          "material_id": "mangguohou.material.14_社交生态位法则-拿捏",
+          "paragraph_id": "P001",
+          "source_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/02_转写文本/01_最终完整文案/14_社交生态位法则：拿捏.md"
+        }
+      ],
+      "next_beat": "把公式放进一个可视化极端情境或列出错误使用后的三类后果，再提出待解释的机制问题。",
+      "transformable_surface_functions": [
+        "具体场景",
+        "数字或事实的证据角色",
+        "熟语或概念的反差功能",
+        "人物或比喻在开头中的作用",
+        "承接顺序"
+      ],
+      "verification_items": [
+        "数字对比、心理学机制、人物案例、古语和生物学类推发布前核验",
+        "社会位置建议需说明情境边界，不能宣称为固定人性代码"
+      ],
+      "avoid": [
+        "为了深刻而制造自相矛盾的空悖论",
+        "公式不能在正文前半段得到解释",
+        "复刻来源游戏、自动售货机、捕鱼或 NPC 比喻",
+        "把复杂关系压成适用于所有人的三条权术"
+      ]
+    }
+  ],
+  "surface_rules": [
+    "第一拍通常在一句内完成价值翻转，不用自我介绍或空目录。",
+    "第二拍必须出现能被拍成画面的具体处境、动作或损失。",
+    "第三拍交代后文会解释什么机制或给什么边界/动作，不只说会颠覆三观。",
+    "强度来自准确命名、反差和代价；不得靠辱骂、绝对人格分层或夸张收益。",
+    "问句用于让观众回忆、替观众反驳或转入方法，每个问句都要推进正文。",
+    "最近三稿避免使用同一第一拍骨架；同一账号不同家族按题目证据形态轮换。"
+  ],
+  "quality_gate_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/芒果猴思维破局/03_统一文风说明书.md",
+  "material_reuse_policy": [
+    "来源开头仅用于分析截停、场景、情绪按钮和承接功能。",
+    "最终开头必须使用新的情境、措辞和收益承诺。",
+    "保留素材ID、段落ID与来源作为分析记录。",
+    "事实性内容发布前核验。"
+  ]
+}

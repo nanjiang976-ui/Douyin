@@ -1,0 +1,5 @@
+asset_id,source_account,model_id,material_id,paragraph_id,applicable_topics,emotion_effect,use_position,source_function,original_order,verification_status,transformation_guidance,no_copy_boundary
+MGH-T01,芒果猴思维破局,mgh.boundary-risk-defense.v1,mangguohou.material.09_成年人必修课_套话,P001,职场沟通|套话|信息边界|拒绝,后怕→识破→从容,选题立意,把普通闲聊重命名为情绪按钮绕过信息防线,风险场景→机制定义→三类按钮→防守动作→体面收束,source_trace_preserved,围绕用户真实场景重建一种隐性社交代价并设计对应防守,不用原工资猎头借钱场景原台词和具名人物
+MGH-T02,芒果猴思维破局,mgh.identity-cost-rebuild.v1,mangguohou.material.10_戒掉_精神跪姿_-你,P001,自卑|配得感|气场|职场机会,窘迫→去魅→配得,选题立意,把抽象自卑翻译为现实损失和身体姿态,身份判断→损失账单→场景扫描→角色切换→身体练习→尊严修复,verify_before_publication,选择一个可观察的退缩动作和真实机会成本重建主体位置,不用原精神跪姿草台班子NPC狮兔比喻及30%数字
+MGH-T03,芒果猴思维破局,mgh.lowpoint-micro-experiment.v1,mangguohou.material.04_从一无所有到30万粉,P001,低谷|没有动力|内容创作|技能学习,羞耻→被理解→掌控,选题立意,先解除懒惰羞耻再把翻盘降到一个可反馈的小动作,痛点矛盾→个人同起点→两个障碍→微小试验→筛选条件→立即行动,verify_before_publication,使用用户自己的真实起点或普遍场景并给一个低风险有保底的小实验,不用原业务低谷粉丝数字穷人饭例子和平台收益承诺
+MGH-T04,芒果猴思维破局,mgh.paradox-mechanism-action.v1,mangguohou.material.05_保护_不快乐_的能力,P001,快乐|节制|欲望|长期主义,反常识→理解→珍惜,选题立意,用悖论重新解释一种被急着消灭的负面条件,悖论→系统比喻→极端案例→普通人镜像→行动仪式→诗性收束,verify_before_publication,另建一套能覆盖期待行动回馈的新比喻并在前半段讲通机制,不用原游戏富豪电瓶车季节意象和人物言论

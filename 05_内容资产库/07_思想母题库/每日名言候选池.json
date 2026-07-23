@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "pool_id": "nanfangdenan.daily-quote-candidate-pool.v1",
+  "pool_name": "每日名言候选池",
+  "purpose": "保存每日自动发现的名言、经典原句和思想片段线索；只有完成出处核验、语境解释、去重和论证关系检查的候选才可晋升思想母题库。",
+  "promotion_policy": {
+    "automatic_promotion_allowed": true,
+    "allowed_verification_statuses": [
+      "verified_primary",
+      "verified_authoritative_secondary"
+    ],
+    "required_relation": "候选必须能与至少一个现有核心母题形成同向、递进、机制补充、必要对照、反方边界或行动出口关系。",
+    "required_reuse": "候选至少能服务两个合理选题，或能稳定补全一个现有思想母题支持组。",
+    "forbidden_sources": "无出处语录卡、营销号转述、名言网站聚合页和无法定位原文的二手截图只能作为线索，不能自动晋升。",
+    "daily_priority": "优先补齐现有母题不足三条辅助名言的支持组，同时轮换覆盖不同思想来源，避免只积累少数作者。"
+  },
+  "candidate_statuses": [
+    {
+      "id": "pending_verification",
+      "meaning": "存在可追查线索，但尚未完成原文、出处或语境核验。"
+    },
+    {
+      "id": "ready_for_promotion",
+      "meaning": "已通过核验、字段、去重和论证关系检查，等待或正在晋升正式库。"
+    },
+    {
+      "id": "promoted",
+      "meaning": "已晋升正式思想母题库，并记录对应TM编号。"
+    },
+    {
+      "id": "rejected",
+      "meaning": "已确认误传、重复、低匹配、不可复用或不适合账号。"
+    }
+  ],
+  "candidates": []
+}

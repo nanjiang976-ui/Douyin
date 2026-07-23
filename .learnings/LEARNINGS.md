@@ -6,6 +6,37 @@ Corrections, insights, and knowledge gaps captured during development.
 
 ---
 
+## [LRN-20260721-001] best_practice
+
+**Logged**: 2026-07-21T15:09:31+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: backend
+
+### Summary
+软检索器必须把主题相关性门槛与阶段、功能加分分开，避免辅助加分制造误召回。
+
+### Details
+阶段和预定用途只能为已经具备主题相关性的候选排序。若允许“结构设计前”或“论证隐喻”等辅助信号参与基础准入，一个只共享“未来”等宽泛词的无关主题也可能被错误召回。
+
+### Suggested Action
+先要求完整命中一个主题标签，或同时模糊命中两个不同主题标签；通过准入后，再叠加调用阶段、预定功能和素材用途分数。用相关、明显无关和共享单个宽泛词的棘手反例共同测试。
+
+### Metadata
+- Source: error
+- Related Files: C:/Users/NJ/.codex/skills/douyin-cognition-script-builder/scripts/select_user_inspirations.py
+- Tags: retrieval, relevance-gate, ranking, false-positive
+- Pattern-Key: retrieval.separate_relevance_from_boosts
+- Recurrence-Count: 1
+- First-Seen: 2026-07-21
+- Last-Seen: 2026-07-21
+
+### Resolution
+- **Resolved**: 2026-07-21T15:09:31+08:00
+- **Notes**: 已增加主题标签准入门，并通过相关主题、单标签主题、无关主题和共享“未来”的棘手反例测试。
+
+---
+
 ## [LRN-20260715-001] correction
 
 **Logged**: 2026-07-15T12:00:00+08:00

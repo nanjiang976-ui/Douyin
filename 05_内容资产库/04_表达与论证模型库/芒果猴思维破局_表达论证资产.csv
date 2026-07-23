@@ -1,0 +1,6 @@
+asset_id,source_account,model_id,material_id,paragraph_id,applicable_topics,emotion_effect,use_position,source_function,original_order,verification_status,transformation_guidance,no_copy_boundary
+MGH-E01,芒果猴思维破局,mgh.boundary-risk-defense.v1,mangguohou.material.07_别让你的嘴-出卖了你,P001,沟通|关系|职场,警觉→掌控,开头到正文,先给高风险规则再用一个微场景解释隐藏目的,规则→场景→动机→回应,source_trace_preserved,保留目的翻译功能并重新设计主题专属场景,不用原法则原问题原台词和鱼钩比喻
+MGH-E02,芒果猴思维破局,mgh.boundary-risk-defense.v1,mangguohou.material.09_成年人必修课_套话,P004,教程|信息防守|谈判,后怕→从容,正文,每一招按诱饵心理按钮泄露后果和防守动作完成四拍闭环,诱饵→按钮→后果→动作,verify_before_publication,让二至三组新场景严格一一对应且说明使用伦理边界,不用原工资猎头借钱场景和招式名称
+MGH-E03,芒果猴思维破局,mgh.identity-cost-rebuild.v1,mangguohou.material.10_戒掉_精神跪姿_-你,P006,自卑|配得|身份重建,窘迫→去魅→占位,正文,先降低外界权威神秘感再把观众切换到使用者位置,自我审判→外界去魅→角色问题→身体证据,verify_before_publication,用一个新的角色问题改变注意力方向并配一个低风险动作,不用原草台班子玩家NPC狮兔与入场券
+MGH-E04,芒果猴思维破局,mgh.lowpoint-micro-experiment.v1,mangguohou.material.04_从一无所有到30万粉,P001,低谷|行动|个人故事,羞耻→被理解→希望,正文,个人故事承担同起点和第一步证据而非成功人设,困境自述→障碍命名→小行动→反馈→筛选条件,verify_before_publication,用用户真实约束展示最小闭环并保留失败或保底结果,不用原业务粉丝数字创作例子和收益判断
+MGH-E05,芒果猴思维破局,mgh.paradox-mechanism-action.v1,mangguohou.material.05_保护_不快乐_的能力,P001,哲理|快乐|长期主义,反常识→讲通→珍惜,正文到结尾,一个贯穿比喻先解释悖论再转普通人红利和诗性仪式,悖论→比喻→机制→极端案例→日常红利→仪式,verify_before_publication,新比喻必须覆盖期待行动回馈且结尾动作已经被前文证明,不用原游戏富豪电瓶车季节意象和人物引语

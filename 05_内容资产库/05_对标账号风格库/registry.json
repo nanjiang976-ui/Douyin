@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-07-14",
+  "updated_at": "2026-07-22",
   "current_account_context": {
     "positioning_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/00_认知类账号定位.md",
     "primary_topics": [
@@ -191,6 +191,39 @@
       "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/03_统一文风说明书.md",
       "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/oMel/03_分析产出/01_逐视频文案机制拆解.csv",
       "material_library_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/oMel/07_对标表层素材库.jsonl"
+    },
+    {
+      "id": "mangguohou",
+      "name": "芒果猴思维破局",
+      "enabled": true,
+      "status": "callable",
+      "priority": 1.0,
+      "style_scope": "unified_account",
+      "domains": [
+        "认知",
+        "个人成长",
+        "自我提升",
+        "社交边界",
+        "职场沟通",
+        "配得感",
+        "行动力",
+        "赚钱意识",
+        "低谷重启",
+        "信息防御",
+        "人情世故"
+      ],
+      "style_traits": [
+        "强判断或悖论截停",
+        "隐藏代价重命名",
+        "微场景照见",
+        "系统比喻长解释",
+        "边界话术或最小动作",
+        "从警觉推进到掌控"
+      ],
+      "fingerprint_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/芒果猴思维破局/02_风格指纹_终审定稿.json",
+      "manual_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/芒果猴思维破局/03_统一文风说明书.md",
+      "evidence_index_path": "C:/Users/NJ/Desktop/Codex/Douyin/02_账号项目/芒果猴思维破局/03_分析产出/01_逐视频文案机制拆解.csv",
+      "material_library_path": "C:/Users/NJ/Desktop/Codex/Douyin/05_内容资产库/05_对标账号风格库/芒果猴思维破局/07_对标表层素材库.jsonl"
     }
   ]
 }
